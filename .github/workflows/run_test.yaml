@@ -1,7 +1,6 @@
 name: Run Selenium Tests
 
-on:
-  repository_dispatch:
+on: [repository_dispatch]
 
 jobs:
   run_tests:
