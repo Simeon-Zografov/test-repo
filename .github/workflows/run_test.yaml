@@ -1,0 +1,31 @@
+name: Run Selenium Tests
+
+on:
+  repository_dispatch:
+    types: [run_tests]
+
+jobs:
+  run_tests:
+    name: Run Selenium Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout test repository
+        uses: actions/checkout@v4
+        with:
+          repository: Simeon-Zografov/test-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+        working-directory: ./Tests
+
+      - name: Run Selenium tests
+        run: |
+          python test_selenium.py # Replace with your test execution command
+        working-directory: ./Tests
