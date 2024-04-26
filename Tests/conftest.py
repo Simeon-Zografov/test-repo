@@ -1,4 +1,4 @@
-import os
+'''import os
 import shutil
 import subprocess
 import pytest
@@ -30,4 +30,4 @@ def pytest_sessionfinish():
     project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     reports_path = os.path.join(project_folder, 'Reports')
     command = f"allure generate {reports_path} --clean"
-    subprocess.run(command, shell=True, check=True)
+    subprocess.run(command, shell=True, check=True)'''
