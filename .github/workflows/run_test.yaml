@@ -2,7 +2,6 @@ name: Run Selenium Tests
 
 on:
   repository_dispatch:
-    types: [run_tests_command]
 
 jobs:
   run_tests:
