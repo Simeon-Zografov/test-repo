@@ -26,8 +26,8 @@ class BaseClass:
     url = os.getenv("URL")
     username = os.getenv("USERNAME")
     password = os.getenv("PASSWORD")
-    browsers = os.getenv("BROWSERS")
-    browsers = browsers.split(", ")
+    browsers = ["Chrome", "Edge"] # os.getenv("BROWSERS")
+    #browsers = browsers.split(", ")
 
     @pytest.fixture(scope="class")
     def driver(self, request):
