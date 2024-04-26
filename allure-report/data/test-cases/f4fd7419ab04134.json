@@ -1,0 +1,193 @@
+{
+  "uid" : "f4fd7419ab04134",
+  "name" : "Twitter link",
+  "fullName" : "Tests.test_SocialMediaLinks.TestLogin#test_1",
+  "historyId" : "f3d4fdd619ae32f73e46d5a7dc8251a4",
+  "time" : {
+    "start" : 1714133371508,
+    "stop" : 1714133376690,
+    "duration" : 5182
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1714133301269,
+      "stop" : 1714133301275,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714133369616,
+      "stop" : 1714133371507,
+      "duration" : 1891
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check twitter heather tex",
+      "time" : {
+        "start" : 1714133372068,
+        "stop" : 1714133376634,
+        "duration" : 4566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "71848be0ceaf3f8",
+      "name" : "stdout",
+      "source" : "71848be0ceaf3f8.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714133379400,
+      "stop" : 1714133379493,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Social Media Links"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_SocialMediaLinks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52831-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_SocialMediaLinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "89e2136a338f299b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:23 in test_1() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:25 in test_1 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713765938742,
+          "stop" : 1713765943159,
+          "duration" : 4417
+        }
+      }, {
+        "uid" : "4b5a2edcccf63757",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:23 in test_1() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:25 in test_1 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713765354531,
+          "stop" : 1713765358735,
+          "duration" : 4204
+        }
+      }, {
+        "uid" : "f7281018b3b3d48b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522956975,
+          "stop" : 1713522962043,
+          "duration" : 5068
+        }
+      }, {
+        "uid" : "eceda7cedbf93d43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522283865,
+          "stop" : 1713522289294,
+          "duration" : 5429
+        }
+      }, {
+        "uid" : "fb2bafc476e1ac5c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521678535,
+          "stop" : 1713521683744,
+          "duration" : 5209
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f4fd7419ab04134.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

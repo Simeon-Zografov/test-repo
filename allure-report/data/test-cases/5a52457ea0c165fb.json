@@ -1,0 +1,233 @@
+{
+  "uid" : "5a52457ea0c165fb",
+  "name" : "Successful login",
+  "fullName" : "Tests.test_Login.TestLogin#test_2",
+  "historyId" : "ce04ae5da7eb2137a09a57b9b398f855",
+  "time" : {
+    "start" : 1714133354894,
+    "stop" : 1714133355403,
+    "duration" : 509
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+  "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1714133301269,
+      "stop" : 1714133301275,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714133352152,
+      "stop" : 1714133353874,
+      "duration" : 1722
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+    "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+    "steps" : [ {
+      "name" : "The app logo is visible after login",
+      "time" : {
+        "start" : 1714133355039,
+        "stop" : 1714133355039,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "The app logo text is correct after login",
+      "time" : {
+        "start" : 1714133355050,
+        "stop" : 1714133355286,
+        "duration" : 236
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/simeonzografov/PycharmProjects/newDemoProject/Common/BaseClass.py\", line 21, in check_with_screenshot\n    assert cond\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2674abcd38da315d",
+        "name" : "screenshot",
+        "source" : "2674abcd38da315d.png",
+        "type" : "image/png",
+        "size" : 699444
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "The items are visible after login",
+      "time" : {
+        "start" : 1714133355300,
+        "stop" : 1714133355300,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714133355405,
+      "stop" : 1714133355479,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52831-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "10664d94d74914d8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713765925713,
+          "stop" : 1713765926229,
+          "duration" : 516
+        }
+      }, {
+        "uid" : "4bcf95abe13cb50f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765341703,
+          "stop" : 1713765341976,
+          "duration" : 273
+        }
+      }, {
+        "uid" : "293347304c3ca35d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522944640,
+          "stop" : 1713522944896,
+          "duration" : 256
+        }
+      }, {
+        "uid" : "a8a72954a7b07b53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522271586,
+          "stop" : 1713522271861,
+          "duration" : 275
+        }
+      }, {
+        "uid" : "4148c49c516f0df2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713521665653,
+          "stop" : 1713521666127,
+          "duration" : 474
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5a52457ea0c165fb.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

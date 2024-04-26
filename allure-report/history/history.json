@@ -1,0 +1,1539 @@
+{
+  "7e2162c355f3bd4c8610625a9983e516" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "dfb94ced8966b98d",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "time" : {
+        "start" : 1714133450629,
+        "stop" : 1714133452448,
+        "duration" : 1819
+      }
+    }, {
+      "uid" : "bf6e9e799fa80026",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713766011735,
+        "stop" : 1713766018933,
+        "duration" : 7198
+      }
+    }, {
+      "uid" : "60094675a8fb8580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765425522,
+        "stop" : 1713765432857,
+        "duration" : 7335
+      }
+    }, {
+      "uid" : "28f4715baa36ca97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713523030787,
+        "stop" : 1713523038075,
+        "duration" : 7288
+      }
+    }, {
+      "uid" : "a90409fa389ddfea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522359158,
+        "stop" : 1713522366403,
+        "duration" : 7245
+      }
+    } ]
+  },
+  "52a9db77aa75b6c2b89b4da254d7daf1" : {
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "e662c75a12b0722f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1714133368333,
+        "stop" : 1714133369533,
+        "duration" : 1200
+      }
+    }, {
+      "uid" : "7facde15872df16b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765936269,
+        "stop" : 1713765937474,
+        "duration" : 1205
+      }
+    }, {
+      "uid" : "3380c34a27910cf9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765352077,
+        "stop" : 1713765353257,
+        "duration" : 1180
+      }
+    }, {
+      "uid" : "597fb60a08131ee7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522954861,
+        "stop" : 1713522955831,
+        "duration" : 970
+      }
+    }, {
+      "uid" : "f8d96222ac907d61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522281771,
+        "stop" : 1713522282731,
+        "duration" : 960
+      }
+    } ]
+  },
+  "08037ddc72d1fb7f6f84345fae7a412d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "4bcbce76e2aec1ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133377606,
+        "stop" : 1714133379399,
+        "duration" : 1793
+      }
+    }, {
+      "uid" : "b970883521db3668",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765944016,
+        "stop" : 1713765945871,
+        "duration" : 1855
+      }
+    }, {
+      "uid" : "92a27097e327f61c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765359585,
+        "stop" : 1713765361604,
+        "duration" : 2019
+      }
+    }, {
+      "uid" : "244a6205d7945d7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522962926,
+        "stop" : 1713522964891,
+        "duration" : 1965
+      }
+    }, {
+      "uid" : "45d6468799a69b6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522290146,
+        "stop" : 1713522292088,
+        "duration" : 1942
+      }
+    } ]
+  },
+  "832efa95bff18ba61fe86deaf27429c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "61ba94a827762af1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133354548,
+        "stop" : 1714133354735,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "5fc4d571c30f050b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765925300,
+        "stop" : 1713765925540,
+        "duration" : 240
+      }
+    }, {
+      "uid" : "b405ca1bb9e3b89b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765341330,
+        "stop" : 1713765341514,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "d8e55c37225e1b04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522944310,
+        "stop" : 1713522944477,
+        "duration" : 167
+      }
+    }, {
+      "uid" : "15f5f5f4cc7a924e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522271252,
+        "stop" : 1713522271418,
+        "duration" : 166
+      }
+    } ]
+  },
+  "f3d4fdd619ae32f73e46d5a7dc8251a4" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "f4fd7419ab04134",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133371508,
+        "stop" : 1714133376690,
+        "duration" : 5182
+      }
+    }, {
+      "uid" : "89e2136a338f299b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:23 in test_1() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:25 in test_1 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765938742,
+        "stop" : 1713765943159,
+        "duration" : 4417
+      }
+    }, {
+      "uid" : "4b5a2edcccf63757",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:23 in test_1() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:25 in test_1 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765354531,
+        "stop" : 1713765358735,
+        "duration" : 4204
+      }
+    }, {
+      "uid" : "f7281018b3b3d48b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522956975,
+        "stop" : 1713522962043,
+        "duration" : 5068
+      }
+    }, {
+      "uid" : "eceda7cedbf93d43",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522283865,
+        "stop" : 1713522289294,
+        "duration" : 5429
+      }
+    } ]
+  },
+  "d10f2698874aa6997bc4a030a1bafd51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "6fe06a99e428526a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133387265,
+        "stop" : 1714133417102,
+        "duration" : 29837
+      }
+    }, {
+      "uid" : "e83d8224bc4702b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765950976,
+        "stop" : 1713765978194,
+        "duration" : 27218
+      }
+    }, {
+      "uid" : "5c4641646a586df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765366750,
+        "stop" : 1713765391514,
+        "duration" : 24764
+      }
+    }, {
+      "uid" : "c147f38c0799aee5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522969974,
+        "stop" : 1713522998327,
+        "duration" : 28353
+      }
+    }, {
+      "uid" : "ac02365f344540ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522297168,
+        "stop" : 1713522324869,
+        "duration" : 27701
+      }
+    } ]
+  },
+  "b82bcf19964e7e7b71a9c750614ceceb" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "e9e11d292b22d07a",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "time" : {
+        "start" : 1714133457330,
+        "stop" : 1714133460011,
+        "duration" : 2681
+      }
+    }, {
+      "uid" : "1dd604b865948585",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> visual_comparison(driver, \"home_page\", \"after_burger_button_click\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713766039682,
+        "stop" : 1713766053238,
+        "duration" : 13556
+      }
+    }, {
+      "uid" : "a1da6287c520e6da",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> visual_comparison(driver, \"home_page\", \"after_burger_button_click\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713765453670,
+        "stop" : 1713765467195,
+        "duration" : 13525
+      }
+    }, {
+      "uid" : "2509d728dd98a191",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> visual_comparison(driver, \"home_page\", \"after_burger_button_click\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713523058880,
+        "stop" : 1713523072395,
+        "duration" : 13515
+      }
+    }, {
+      "uid" : "440e5e18c3933190",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> visual_comparison(driver, \"home_page\", \"after_burger_button_click\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713522387213,
+        "stop" : 1713522400759,
+        "duration" : 13546
+      }
+    } ]
+  },
+  "d6e20593c127f4d99d9d3e02f30f674e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a93cd9664d0cd378",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'SubRequest' object has no attribute 'param'",
+      "time" : {
+        "start" : 1713774176185,
+        "stop" : 1713774176185,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6d820b46eac3cf5258467741b1996cc9" : {
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "2e011ea126c9c9db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133313536,
+        "stop" : 1714133321307,
+        "duration" : 7771
+      }
+    }, {
+      "uid" : "d5ae2b0407a8a394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713943286408,
+        "stop" : 1713943294258,
+        "duration" : 7850
+      }
+    }, {
+      "uid" : "6715f92addc802e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'left: 84%;' == 'left: 80%;'\n  \n  - left: 80%;\n  ?        ^\n  + left: 84%;\n  ?        ^\n\u001B[31mtest_Components.py\u001B[0m:41 in test_1() -> with check, allure.step(\"Keystroke down arrow\"):\n\u001B[31mtest_Components.py\u001B[0m:45 in test_1 -> assert style == f\"left: {desired_position}%;\"\n\u001B[31mAssertionError: assert 'left: 84%;' == 'left: 80%;'\n  \n  - left: 80%;\n  ?        ^\n  + left: 84%;\n  ?        ^\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713943214747,
+        "stop" : 1713943222478,
+        "duration" : 7731
+      }
+    }, {
+      "uid" : "590b12d4969aaecd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'left: 32%;' == 'left: 27%;'\n  \n  - left: 27%;\n  ?        -\n  + left: 32%;\n  ?       +\n\u001B[31mtest_Components.py\u001B[0m:41 in test_1() -> with check, allure.step(\"Keystroke down arrow\"):\n\u001B[31mtest_Components.py\u001B[0m:44 in test_1 -> assert style == f\"left: {desired_position}%;\"\n\u001B[31mAssertionError: assert 'left: 32%;' == 'left: 27%;'\n  \n  - left: 27%;\n  ?        -\n  + left: 32%;\n  ?       +\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713943143967,
+        "stop" : 1713943151393,
+        "duration" : 7426
+      }
+    }, {
+      "uid" : "a6b2195d9f8ac936",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'left: 1%;' == 'left: -4%;'\n  \n  - left: -4%;\n  ?       ^^\n  + left: 1%;\n  ?       ^\n\u001B[31mtest_Components.py\u001B[0m:41 in test_1() -> with check, allure.step(\"Keystroke down arrow\"):\n\u001B[31mtest_Components.py\u001B[0m:44 in test_1 -> assert style == f\"left: {desired_position}%;\"\n\u001B[31mAssertionError: assert 'left: 1%;' == 'left: -4%;'\n  \n  - left: -4%;\n  ?       ^^\n  + left: 1%;\n  ?       ^\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713943116377,
+        "stop" : 1713943123957,
+        "duration" : 7580
+      }
+    } ]
+  },
+  "91731744d83500bd76ad260359f203b8" : {
+    "statistic" : {
+      "failed" : 15,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "c3ab73c93bd92b06",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1714133311325,
+        "stop" : 1714133311870,
+        "duration" : 545
+      }
+    }, {
+      "uid" : "f66f541ca39b503",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713765907417,
+        "stop" : 1713765907856,
+        "duration" : 439
+      }
+    }, {
+      "uid" : "e39b00eb00b2d404",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713765323496,
+        "stop" : 1713765323984,
+        "duration" : 488
+      }
+    }, {
+      "uid" : "411f338c0e398f49",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713522927066,
+        "stop" : 1713522927556,
+        "duration" : 490
+      }
+    }, {
+      "uid" : "a432602faaaa75bf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713522254330,
+        "stop" : 1713522254828,
+        "duration" : 498
+      }
+    } ]
+  },
+  "3436b2438a86d02165479b0187f7cb41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "87d554f801be54b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133328126,
+        "stop" : 1714133330375,
+        "duration" : 2249
+      }
+    }, {
+      "uid" : "51eeecf791c80d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765912119,
+        "stop" : 1713765913876,
+        "duration" : 1757
+      }
+    }, {
+      "uid" : "a55384ef5474f60b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765328116,
+        "stop" : 1713765329851,
+        "duration" : 1735
+      }
+    }, {
+      "uid" : "1b331f5c4ee77dab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522931775,
+        "stop" : 1713522933632,
+        "duration" : 1857
+      }
+    }, {
+      "uid" : "e1335b9dcfcc286c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522259018,
+        "stop" : 1713522260724,
+        "duration" : 1706
+      }
+    } ]
+  },
+  "e21df8759f38c824faf6c4b124b83500" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "a09e2f3200af5e54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133350410,
+        "stop" : 1714133352074,
+        "duration" : 1664
+      }
+    }, {
+      "uid" : "82a7443c7678b1f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765921753,
+        "stop" : 1713765923437,
+        "duration" : 1684
+      }
+    }, {
+      "uid" : "b4cc749e74c00831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765337803,
+        "stop" : 1713765339456,
+        "duration" : 1653
+      }
+    }, {
+      "uid" : "63c094f205c3df2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522940954,
+        "stop" : 1713522942612,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "6bb603ac82a6e81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522267889,
+        "stop" : 1713522269541,
+        "duration" : 1652
+      }
+    } ]
+  },
+  "835dedd962576e463d3e402931bc7f9f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "c84c826dd23cc01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133367040,
+        "stop" : 1714133367460,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "ebf37d725b23899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765934937,
+        "stop" : 1713765935361,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "2735fd09a366f6dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765350834,
+        "stop" : 1713765351215,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "e0f0d5a91024883b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522953589,
+        "stop" : 1713522954002,
+        "duration" : 413
+      }
+    }, {
+      "uid" : "36b4ccdb29ec0688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522280489,
+        "stop" : 1713522280889,
+        "duration" : 400
+      }
+    } ]
+  },
+  "d3e1758d03982814c02f1852d8cdaadd" : {
+    "statistic" : {
+      "failed" : 15,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "8bbbb380b90733d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1714133310779,
+        "stop" : 1714133311303,
+        "duration" : 524
+      }
+    }, {
+      "uid" : "41f23bb6568d9547",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713765906037,
+        "stop" : 1713765907397,
+        "duration" : 1360
+      }
+    }, {
+      "uid" : "e8f00d7d184b90ad",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713765322944,
+        "stop" : 1713765323478,
+        "duration" : 534
+      }
+    }, {
+      "uid" : "88c66d2486f5f0e6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713522926498,
+        "stop" : 1713522927046,
+        "duration" : 548
+      }
+    }, {
+      "uid" : "c33d1fa38e74adf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1713522253719,
+        "stop" : 1713522254311,
+        "duration" : 592
+      }
+    } ]
+  },
+  "797e24ae071c7cec39d2cf534183666e" : {
+    "statistic" : {
+      "failed" : 14,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "d49a49ca540eedc5",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "time" : {
+        "start" : 1714133455426,
+        "stop" : 1714133457196,
+        "duration" : 1770
+      }
+    }, {
+      "uid" : "aa3112994ba6ca49",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> visual_comparison(driver, \"home_page\", \"main\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713766027006,
+        "stop" : 1713766039681,
+        "duration" : 12675
+      }
+    }, {
+      "uid" : "a90dacc9e4e71a6f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> visual_comparison(driver, \"home_page\", \"main\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713765440957,
+        "stop" : 1713765453669,
+        "duration" : 12712
+      }
+    }, {
+      "uid" : "480949bb6e87ca40",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> visual_comparison(driver, \"home_page\", \"main\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713523046188,
+        "stop" : 1713523058879,
+        "duration" : 12691
+      }
+    }, {
+      "uid" : "a7144018dafdc9d8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> visual_comparison(driver, \"home_page\", \"main\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "time" : {
+        "start" : 1713522374491,
+        "stop" : 1713522387212,
+        "duration" : 12721
+      }
+    } ]
+  },
+  "f351905492f20e257d3c84933f640453" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "f15aa20140a37b46",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "time" : {
+        "start" : 1714133452584,
+        "stop" : 1714133455291,
+        "duration" : 2707
+      }
+    }, {
+      "uid" : "2b68172bf5d3faac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713766018934,
+        "stop" : 1713766027004,
+        "duration" : 8070
+      }
+    }, {
+      "uid" : "9c9e48fb7b9df431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765432858,
+        "stop" : 1713765440956,
+        "duration" : 8098
+      }
+    }, {
+      "uid" : "26383d7047a1fd07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713523038076,
+        "stop" : 1713523046186,
+        "duration" : 8110
+      }
+    }, {
+      "uid" : "d9d6385b2c820400",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522366405,
+        "stop" : 1713522374489,
+        "duration" : 8084
+      }
+    } ]
+  },
+  "e664392ae8e96150bc26ed53191a48bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "e2e14df47a5f960d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133363155,
+        "stop" : 1714133367038,
+        "duration" : 3883
+      }
+    }, {
+      "uid" : "b543e3925cb1eead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765931296,
+        "stop" : 1713765934934,
+        "duration" : 3638
+      }
+    }, {
+      "uid" : "d8d4e9995b54e0d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765347132,
+        "stop" : 1713765350830,
+        "duration" : 3698
+      }
+    }, {
+      "uid" : "d2a84e539bbbb93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522949930,
+        "stop" : 1713522953587,
+        "duration" : 3657
+      }
+    }, {
+      "uid" : "1a25f19dbabcf75b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522276907,
+        "stop" : 1713522280487,
+        "duration" : 3580
+      }
+    } ]
+  },
+  "b461054c34bef2ff4985443520df9a01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "7f2d6b9b8de92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133354405,
+        "stop" : 1714133354546,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "711edc460b45fbb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765925159,
+        "stop" : 1713765925299,
+        "duration" : 140
+      }
+    }, {
+      "uid" : "86d59a6229116a92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765341199,
+        "stop" : 1713765341328,
+        "duration" : 129
+      }
+    }, {
+      "uid" : "b5506e6c024529c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522944170,
+        "stop" : 1713522944308,
+        "duration" : 138
+      }
+    }, {
+      "uid" : "7860f89c59c0b0f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522271113,
+        "stop" : 1713522271249,
+        "duration" : 136
+      }
+    } ]
+  },
+  "86bc5338a5c26c00a62dcfde57e10d39" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "c11bae2f2cc908e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133367461,
+        "stop" : 1714133368086,
+        "duration" : 625
+      }
+    }, {
+      "uid" : "f2f69149842bcdc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765935363,
+        "stop" : 1713765936005,
+        "duration" : 642
+      }
+    }, {
+      "uid" : "890e7b5bc319497d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765351216,
+        "stop" : 1713765351825,
+        "duration" : 609
+      }
+    }, {
+      "uid" : "aad92d508ea27cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522954004,
+        "stop" : 1713522954633,
+        "duration" : 629
+      }
+    }, {
+      "uid" : "70114f48d558c76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522280890,
+        "stop" : 1713522281516,
+        "duration" : 626
+      }
+    } ]
+  },
+  "c5a9642853eecee0f0c32d409da2a973" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "1a3212f15292fed9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133417105,
+        "stop" : 1714133437656,
+        "duration" : 20551
+      }
+    }, {
+      "uid" : "46e6fe9e21a2235c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765978197,
+        "stop" : 1713765998142,
+        "duration" : 19945
+      }
+    }, {
+      "uid" : "86a0c0b297facca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765391519,
+        "stop" : 1713765412457,
+        "duration" : 20938
+      }
+    }, {
+      "uid" : "2b63661cbcbf3018",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522998329,
+        "stop" : 1713523017646,
+        "duration" : 19317
+      }
+    }, {
+      "uid" : "648d2f5f7e360896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522324871,
+        "stop" : 1713522346048,
+        "duration" : 21177
+      }
+    } ]
+  },
+  "2dcd0c8f88c9244e71c5a1469298148a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "470c585f2e2b619e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133332032,
+        "stop" : 1714133332344,
+        "duration" : 312
+      }
+    }, {
+      "uid" : "8df62094814a4db6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765914991,
+        "stop" : 1713765915247,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "38cf52135c11e08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765330979,
+        "stop" : 1713765331305,
+        "duration" : 326
+      }
+    }, {
+      "uid" : "73904cbbf6670fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522934739,
+        "stop" : 1713522935034,
+        "duration" : 295
+      }
+    }, {
+      "uid" : "85d2f373767032d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522261846,
+        "stop" : 1713522262111,
+        "duration" : 265
+      }
+    } ]
+  },
+  "ce04ae5da7eb2137a09a57b9b398f855" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "5a52457ea0c165fb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1714133354894,
+        "stop" : 1714133355403,
+        "duration" : 509
+      }
+    }, {
+      "uid" : "10664d94d74914d8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765925713,
+        "stop" : 1713765926229,
+        "duration" : 516
+      }
+    }, {
+      "uid" : "4bcf95abe13cb50f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765341703,
+        "stop" : 1713765341976,
+        "duration" : 273
+      }
+    }, {
+      "uid" : "293347304c3ca35d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522944640,
+        "stop" : 1713522944896,
+        "duration" : 256
+      }
+    }, {
+      "uid" : "a8a72954a7b07b53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522271586,
+        "stop" : 1713522271861,
+        "duration" : 275
+      }
+    } ]
+  },
+  "63897e64b152c226db60648cac2f94ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "5ff6cbf0cc73de36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133353879,
+        "stop" : 1714133354401,
+        "duration" : 522
+      }
+    }, {
+      "uid" : "2a49c8fd3e95262c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765924695,
+        "stop" : 1713765925158,
+        "duration" : 463
+      }
+    }, {
+      "uid" : "ab888eacf4736007",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765340699,
+        "stop" : 1713765341197,
+        "duration" : 498
+      }
+    }, {
+      "uid" : "70e5286da98be97b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522943698,
+        "stop" : 1713522944167,
+        "duration" : 469
+      }
+    }, {
+      "uid" : "51cefa18a2e2c44a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522270629,
+        "stop" : 1713522271111,
+        "duration" : 482
+      }
+    } ]
+  },
+  "920a7cfe8b100d9ac9150e7b25e58914" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "40d22bf26fe56dd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133437658,
+        "stop" : 1714133445406,
+        "duration" : 7748
+      }
+    }, {
+      "uid" : "670e914945714584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765998144,
+        "stop" : 1713766006087,
+        "duration" : 7943
+      }
+    }, {
+      "uid" : "26ee948b845d3163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765412460,
+        "stop" : 1713765419844,
+        "duration" : 7384
+      }
+    }, {
+      "uid" : "5bb689f4b556fc0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713523017648,
+        "stop" : 1713523025184,
+        "duration" : 7536
+      }
+    }, {
+      "uid" : "496a731d373f22f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522346049,
+        "stop" : 1713522353519,
+        "duration" : 7470
+      }
+    } ]
+  },
+  "f050d45845ad5be5eb6daa72e6bc38ca" : {
+    "statistic" : {
+      "failed" : 15,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "18eea8fd2b3d5242",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1714133376692,
+        "stop" : 1714133377605,
+        "duration" : 913
+      }
+    }, {
+      "uid" : "82015f019f05336a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765943161,
+        "stop" : 1713765944015,
+        "duration" : 854
+      }
+    }, {
+      "uid" : "93a5c93b13be3e10",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713765358736,
+        "stop" : 1713765359584,
+        "duration" : 848
+      }
+    }, {
+      "uid" : "9524dd5a446ac2cb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713522962044,
+        "stop" : 1713522962925,
+        "duration" : 881
+      }
+    }, {
+      "uid" : "27e33bf60f10862e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "time" : {
+        "start" : 1713522289296,
+        "stop" : 1713522290145,
+        "duration" : 849
+      }
+    } ]
+  },
+  "e8c8b808a1aba4bd5fb744985ee6e2df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "70bbbcd9b0d9847b",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "time" : {
+        "start" : 1714133447596,
+        "stop" : 1714133450409,
+        "duration" : 2813
+      }
+    }, {
+      "uid" : "bba3672b0c44185a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713766007613,
+        "stop" : 1713766011734,
+        "duration" : 4121
+      }
+    }, {
+      "uid" : "6d78e2169136b33c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765421377,
+        "stop" : 1713765425521,
+        "duration" : 4144
+      }
+    }, {
+      "uid" : "274c7fa91a568a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713523026672,
+        "stop" : 1713523030786,
+        "duration" : 4114
+      }
+    }, {
+      "uid" : "c1da08ef2dd8308f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522355035,
+        "stop" : 1713522359156,
+        "duration" : 4121
+      }
+    } ]
+  },
+  "54468f8a23c38520ab8c2f061649c1d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "20b4b5f5a60b1f25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133354739,
+        "stop" : 1714133354892,
+        "duration" : 153
+      }
+    }, {
+      "uid" : "94e3172b1117e95d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765925541,
+        "stop" : 1713765925711,
+        "duration" : 170
+      }
+    }, {
+      "uid" : "f6b3be63b1b0c5d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765341517,
+        "stop" : 1713765341701,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "dcf7d7d6a60af941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522944479,
+        "stop" : 1713522944638,
+        "duration" : 159
+      }
+    }, {
+      "uid" : "e8ac9c4ea5f03091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522271420,
+        "stop" : 1713522271581,
+        "duration" : 161
+      }
+    } ]
+  },
+  "39802564165ab5aad57da0e625718d99" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "960a4c135c522b1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133368088,
+        "stop" : 1714133368332,
+        "duration" : 244
+      }
+    }, {
+      "uid" : "211ae2df31c0c5ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765936008,
+        "stop" : 1713765936267,
+        "duration" : 259
+      }
+    }, {
+      "uid" : "f08c6393c5f31e85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765351826,
+        "stop" : 1713765352076,
+        "duration" : 250
+      }
+    }, {
+      "uid" : "70fd5a0d765dcddf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522954635,
+        "stop" : 1713522954859,
+        "duration" : 224
+      }
+    }, {
+      "uid" : "1796580dff8d2c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522281518,
+        "stop" : 1713522281769,
+        "duration" : 251
+      }
+    } ]
+  },
+  "49b79de0bc8ff4a7108970eafa2b1d0f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "1ee9727eb4b97338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133321310,
+        "stop" : 1714133322786,
+        "duration" : 1476
+      }
+    }, {
+      "uid" : "8e763438adc35c34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713943294260,
+        "stop" : 1713943295776,
+        "duration" : 1516
+      }
+    }, {
+      "uid" : "b746f61a4a036c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713943222479,
+        "stop" : 1713943224583,
+        "duration" : 2104
+      }
+    }, {
+      "uid" : "4bc3858b93fd6c25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713943151394,
+        "stop" : 1713943152924,
+        "duration" : 1530
+      }
+    }, {
+      "uid" : "f6b89c0e438b554e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713943123959,
+        "stop" : 1713943125391,
+        "duration" : 1432
+      }
+    } ]
+  },
+  "10fcde3b44bdf9ba03ce879fc327c73b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 15
+    },
+    "items" : [ {
+      "uid" : "16094efe820ce97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1714133324407,
+        "stop" : 1714133326599,
+        "duration" : 2192
+      }
+    }, {
+      "uid" : "9b6af43f9a49044d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765908995,
+        "stop" : 1713765911057,
+        "duration" : 2062
+      }
+    }, {
+      "uid" : "d7827b3e83b8323",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713765325096,
+        "stop" : 1713765327070,
+        "duration" : 1974
+      }
+    }, {
+      "uid" : "a9422ce81884b71a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522928692,
+        "stop" : 1713522930727,
+        "duration" : 2035
+      }
+    }, {
+      "uid" : "38d0e8b3724ddfa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713522255965,
+        "stop" : 1713522257960,
+        "duration" : 1995
+      }
+    } ]
+  }
+}

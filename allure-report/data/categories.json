@@ -1,0 +1,153 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "children" : [ {
+        "name" : "Check the landing page accessibility",
+        "uid" : "8bbbb380b90733d6",
+        "parentUid" : "8c7ef59833ce624d91e5925e599411b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714133310779,
+          "stop" : 1714133311303,
+          "duration" : 524
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "8c7ef59833ce624d91e5925e599411b3"
+    }, {
+      "name" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "children" : [ {
+        "name" : "Check the home page accessibility",
+        "uid" : "c3ab73c93bd92b06",
+        "parentUid" : "35904ac2e4c3ae46f569e43c4ca9468c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714133311325,
+          "stop" : 1714133311870,
+          "duration" : 545
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "35904ac2e4c3ae46f569e43c4ca9468c"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "Successful login",
+        "uid" : "5a52457ea0c165fb",
+        "parentUid" : "07613e7ebd80a789f5309e97100ce906",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714133354894,
+          "stop" : 1714133355403,
+          "duration" : 509
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Successful login",
+        "uid" : "e662c75a12b0722f",
+        "parentUid" : "07613e7ebd80a789f5309e97100ce906",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714133368333,
+          "stop" : 1714133369533,
+          "duration" : 1200
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      } ],
+      "uid" : "07613e7ebd80a789f5309e97100ce906"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "Manually open new tab",
+        "uid" : "18eea8fd2b3d5242",
+        "parentUid" : "a936b1bd5f8a62da45b5a41d802c3eba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1714133376692,
+          "stop" : 1714133377605,
+          "duration" : 913
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "a936b1bd5f8a62da45b5a41d802c3eba"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ValueError: ('Image sizes do not match.', 13537280, 13516800)",
+      "children" : [ {
+        "name" : "Visual check of the Landing page",
+        "uid" : "70bbbcd9b0d9847b",
+        "parentUid" : "62ddf07ea265c8b5576ae248b8801c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714133447596,
+          "stop" : 1714133450409,
+          "duration" : 2813
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page",
+        "uid" : "dfb94ced8966b98d",
+        "parentUid" : "62ddf07ea265c8b5576ae248b8801c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714133450629,
+          "stop" : 1714133452448,
+          "duration" : 1819
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page after burger button click",
+        "uid" : "f15aa20140a37b46",
+        "parentUid" : "62ddf07ea265c8b5576ae248b8801c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714133452584,
+          "stop" : 1714133455291,
+          "duration" : 2707
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page",
+        "uid" : "d49a49ca540eedc5",
+        "parentUid" : "62ddf07ea265c8b5576ae248b8801c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714133455426,
+          "stop" : 1714133457196,
+          "duration" : 1770
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page after burger button click",
+        "uid" : "e9e11d292b22d07a",
+        "parentUid" : "62ddf07ea265c8b5576ae248b8801c0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1714133457330,
+          "stop" : 1714133460011,
+          "duration" : 2681
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "62ddf07ea265c8b5576ae248b8801c0d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

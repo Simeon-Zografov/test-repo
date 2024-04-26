@@ -1,0 +1,234 @@
+{
+  "uid" : "e662c75a12b0722f",
+  "name" : "Successful login",
+  "fullName" : "Tests.test_Login.TestLogin#test_2",
+  "historyId" : "52a9db77aa75b6c2b89b4da254d7daf1",
+  "time" : {
+    "start" : 1714133368333,
+    "stop" : 1714133369533,
+    "duration" : 1200
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+  "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1714133301269,
+      "stop" : 1714133301275,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714133355480,
+      "stop" : 1714133363154,
+      "duration" : 7674
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+    "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+    "steps" : [ {
+      "name" : "The app logo is visible after login",
+      "time" : {
+        "start" : 1714133368871,
+        "stop" : 1714133368871,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "The app logo text is correct after login",
+      "time" : {
+        "start" : 1714133368906,
+        "stop" : 1714133369189,
+        "duration" : 283
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/simeonzografov/PycharmProjects/newDemoProject/Common/BaseClass.py\", line 21, in check_with_screenshot\n    assert cond\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "90c1c0b9ef16041b",
+        "name" : "screenshot",
+        "source" : "90c1c0b9ef16041b.png",
+        "type" : "image/png",
+        "size" : 713757
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "The items are visible after login",
+      "time" : {
+        "start" : 1714133369200,
+        "stop" : 1714133369200,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714133369534,
+      "stop" : 1714133369614,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52831-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Edge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 7,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "7facde15872df16b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713765936269,
+          "stop" : 1713765937474,
+          "duration" : 1205
+        }
+      }, {
+        "uid" : "3380c34a27910cf9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713765352077,
+          "stop" : 1713765353257,
+          "duration" : 1180
+        }
+      }, {
+        "uid" : "597fb60a08131ee7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522954861,
+          "stop" : 1713522955831,
+          "duration" : 970
+        }
+      }, {
+        "uid" : "f8d96222ac907d61",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522281771,
+          "stop" : 1713522282731,
+          "duration" : 960
+        }
+      }, {
+        "uid" : "68752e37082eb546",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+        "time" : {
+          "start" : 1713521676220,
+          "stop" : 1713521677398,
+          "duration" : 1178
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e662c75a12b0722f.json",
+  "parameterValues" : [ "'Edge'" ]
+}

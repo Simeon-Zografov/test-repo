@@ -1,0 +1,291 @@
+[ {
+  "uid" : "1a3212f15292fed9",
+  "name" : "Manually open new tab",
+  "time" : {
+    "start" : 1714133417105,
+    "stop" : 1714133437656,
+    "duration" : 20551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61ba94a827762af1",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133354548,
+    "stop" : 1714133354735,
+    "duration" : 187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40d22bf26fe56dd8",
+  "name" : "Navigate to iframe",
+  "time" : {
+    "start" : 1714133437658,
+    "stop" : 1714133445406,
+    "duration" : 7748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e9e11d292b22d07a",
+  "name" : "Visual check of the broken Home page after burger button click",
+  "time" : {
+    "start" : 1714133457330,
+    "stop" : 1714133460011,
+    "duration" : 2681
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee9727eb4b97338",
+  "name" : "test_2[Chrome]",
+  "time" : {
+    "start" : 1714133321310,
+    "stop" : 1714133322786,
+    "duration" : 1476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fe06a99e428526a",
+  "name" : "Twitter link",
+  "time" : {
+    "start" : 1714133387265,
+    "stop" : 1714133417102,
+    "duration" : 29837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ab73c93bd92b06",
+  "name" : "Check the home page accessibility",
+  "time" : {
+    "start" : 1714133311325,
+    "stop" : 1714133311870,
+    "duration" : 545
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "960a4c135c522b1a",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133368088,
+    "stop" : 1714133368332,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "470c585f2e2b619e",
+  "name" : "Login logo is visible",
+  "time" : {
+    "start" : 1714133332032,
+    "stop" : 1714133332344,
+    "duration" : 312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c84c826dd23cc01c",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133367040,
+    "stop" : 1714133367460,
+    "duration" : 420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a52457ea0c165fb",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1714133354894,
+    "stop" : 1714133355403,
+    "duration" : 509
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "20b4b5f5a60b1f25",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133354739,
+    "stop" : 1714133354892,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2e14df47a5f960d",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133363155,
+    "stop" : 1714133367038,
+    "duration" : 3883
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfb94ced8966b98d",
+  "name" : "Visual check of the Home page",
+  "time" : {
+    "start" : 1714133450629,
+    "stop" : 1714133452448,
+    "duration" : 1819
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87d554f801be54b2",
+  "name" : "Check the latest notification email subject",
+  "time" : {
+    "start" : 1714133328126,
+    "stop" : 1714133330375,
+    "duration" : 2249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ff6cbf0cc73de36",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133353879,
+    "stop" : 1714133354401,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d49a49ca540eedc5",
+  "name" : "Visual check of the broken Home page",
+  "time" : {
+    "start" : 1714133455426,
+    "stop" : 1714133457196,
+    "duration" : 1770
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f15aa20140a37b46",
+  "name" : "Visual check of the Home page after burger button click",
+  "time" : {
+    "start" : 1714133452584,
+    "stop" : 1714133455291,
+    "duration" : 2707
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a09e2f3200af5e54",
+  "name" : "Login logo is visible",
+  "time" : {
+    "start" : 1714133350410,
+    "stop" : 1714133352074,
+    "duration" : 1664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18eea8fd2b3d5242",
+  "name" : "Manually open new tab",
+  "time" : {
+    "start" : 1714133376692,
+    "stop" : 1714133377605,
+    "duration" : 913
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e011ea126c9c9db",
+  "name" : "test_1[Chrome]",
+  "time" : {
+    "start" : 1714133313536,
+    "stop" : 1714133321307,
+    "duration" : 7771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "70bbbcd9b0d9847b",
+  "name" : "Visual check of the Landing page",
+  "time" : {
+    "start" : 1714133447596,
+    "stop" : 1714133450409,
+    "duration" : 2813
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "16094efe820ce97",
+  "name" : "Contact list displays wright names",
+  "time" : {
+    "start" : 1714133324407,
+    "stop" : 1714133326599,
+    "duration" : 2192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4fd7419ab04134",
+  "name" : "Twitter link",
+  "time" : {
+    "start" : 1714133371508,
+    "stop" : 1714133376690,
+    "duration" : 5182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e662c75a12b0722f",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1714133368333,
+    "stop" : 1714133369533,
+    "duration" : 1200
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "8bbbb380b90733d6",
+  "name" : "Check the landing page accessibility",
+  "time" : {
+    "start" : 1714133310779,
+    "stop" : 1714133311303,
+    "duration" : 524
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f2d6b9b8de92",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133354405,
+    "stop" : 1714133354546,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bcbce76e2aec1ec",
+  "name" : "Navigate to iframe",
+  "time" : {
+    "start" : 1714133377606,
+    "stop" : 1714133379399,
+    "duration" : 1793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c11bae2f2cc908e3",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1714133367461,
+    "stop" : 1714133368086,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

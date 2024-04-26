@@ -1,0 +1,201 @@
+{
+  "uid" : "8bbbb380b90733d6",
+  "name" : "Check the landing page accessibility",
+  "fullName" : "Tests.test_Accessibility.TestAccessibility#test_1",
+  "historyId" : "d3e1758d03982814c02f1852d8cdaadd",
+  "time" : {
+    "start" : 1714133310779,
+    "stop" : 1714133311303,
+    "duration" : 524
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+  "statusTrace" : "self = <Tests.test_Accessibility.TestAccessibility object at 0x104896050>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5774d20c4d4fe7814b42e3a25a208721\")>\n\n    @severity(severity_level.NORMAL)\n    @allure.feature('Accessibility')\n    @allure.title(\"Check the landing page accessibility\")\n    def test_1(self, driver):\n        driver.get(BaseClass.url)\n        axe = Axe(driver)\n        axe.inject()\n        results = axe.run()\n        if len(results[\"violations\"]) != 0:\n            axe_report = axe.report(results[\"violations\"])\n            allure.attach(\n                axe_report,\n                name=\"Axe Accessibility Report\",\n                attachment_type=allure.attachment_type.TEXT,\n            )\n            allure.attach(\n                driver.get_screenshot_as_png(),\n                name=\"screenshot\",\n                attachment_type=allure.attachment_type.PNG\n            )\n>       assert len(results[\"violations\"]) == 0\nE       AssertionError: assert 4 == 0\nE        +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])\n\nTests/test_Accessibility.py:32: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1714133301276,
+      "stop" : 1714133310777,
+      "duration" : 9501
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1714133301269,
+      "stop" : 1714133301275,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+    "statusTrace" : "self = <Tests.test_Accessibility.TestAccessibility object at 0x104896050>\ndriver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"5774d20c4d4fe7814b42e3a25a208721\")>\n\n    @severity(severity_level.NORMAL)\n    @allure.feature('Accessibility')\n    @allure.title(\"Check the landing page accessibility\")\n    def test_1(self, driver):\n        driver.get(BaseClass.url)\n        axe = Axe(driver)\n        axe.inject()\n        results = axe.run()\n        if len(results[\"violations\"]) != 0:\n            axe_report = axe.report(results[\"violations\"])\n            allure.attach(\n                axe_report,\n                name=\"Axe Accessibility Report\",\n                attachment_type=allure.attachment_type.TEXT,\n            )\n            allure.attach(\n                driver.get_screenshot_as_png(),\n                name=\"screenshot\",\n                attachment_type=allure.attachment_type.PNG\n            )\n>       assert len(results[\"violations\"]) == 0\nE       AssertionError: assert 4 == 0\nE        +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])\n\nTests/test_Accessibility.py:32: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7585bb296acf94cd",
+      "name" : "Axe Accessibility Report",
+      "source" : "7585bb296acf94cd.txt",
+      "type" : "text/plain",
+      "size" : 2019
+    }, {
+      "uid" : "1bc40a39c1673407",
+      "name" : "screenshot",
+      "source" : "1bc40a39c1673407.png",
+      "type" : "image/png",
+      "size" : 86685
+    }, {
+      "uid" : "48416d9d47f37ecf",
+      "name" : "stdout",
+      "source" : "48416d9d47f37ecf.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1714133311872,
+      "stop" : 1714133311943,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Accessibility"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Accessibility"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccessibility"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "52831-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_Accessibility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 15,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "41f23bb6568d9547",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+        "time" : {
+          "start" : 1713765906037,
+          "stop" : 1713765907397,
+          "duration" : 1360
+        }
+      }, {
+        "uid" : "e8f00d7d184b90ad",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+        "time" : {
+          "start" : 1713765322944,
+          "stop" : 1713765323478,
+          "duration" : 534
+        }
+      }, {
+        "uid" : "88c66d2486f5f0e6",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+        "time" : {
+          "start" : 1713522926498,
+          "stop" : 1713522927046,
+          "duration" : 548
+        }
+      }, {
+        "uid" : "c33d1fa38e74adf",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+        "time" : {
+          "start" : 1713522253719,
+          "stop" : 1713522254311,
+          "duration" : 592
+        }
+      }, {
+        "uid" : "81e3d654d3951aa0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+        "time" : {
+          "start" : 1713521647768,
+          "stop" : 1713521648312,
+          "duration" : 544
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8bbbb380b90733d6.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
