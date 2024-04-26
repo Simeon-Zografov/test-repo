@@ -23,15 +23,15 @@ def check_with_screenshot(driver, cond, message):
 
 class BaseClass:
     load_dotenv()
-    url = os.getenv("URL")
-    username = os.getenv("USERNAME")
-    password = os.getenv("PASSWORD")
+    url = "https://www.saucedemo.com/" # os.getenv("URL")
+    username = "standard_user" # os.getenv("USERNAME")
+    password = "secret_sauce" # os.getenv("PASSWORD")
     browsers = ["Chrome", "Edge"] # os.getenv("BROWSERS")
     #browsers = browsers.split(", ")
 
     @pytest.fixture(scope="class")
     def driver(self, request):
-        print(os.getenv("CURRENT_ENV"))
+        #print(os.getenv("CURRENT_ENV"))
         browser = request.param
 
         project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
