@@ -18,16 +18,15 @@ jobs:
         with:
           python-version: '3.11'
 
-      # - name: Install Chrome browser
-      #  uses: abhi1693/setup-browser@v0.3.4
-      #  with:
-      #    browser: chrome
-      #    version: latest
-
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
         working-directory: .
+
+      - name: Prepare Allure history # Step to prepare Allure history directory
+        run: |
+          cd ..
+          mkdir -p Reports
 
       - name: Debugging - Print Chrome Version
         run: google-chrome --version
@@ -42,3 +41,19 @@ jobs:
         run: |
           pytest
         working-directory: .
+
+      - name: Get Allure history # Step to retrieve Allure history
+        uses: actions/checkout@v3
+        if: always() # Execute even if previous steps fail
+        continue-on-error: true # Continue execution even if the step fails
+        with:
+          ref: gh-pages # Specify the branch to retrieve Allure history from
+          path: gh-pages # Set the destination path for Allure history
+
+      - name: Allure report action # Step to generate Allure report
+        uses: simple-elf/allure-report-action@master
+        if: always() # Execute even if previous steps fail
+        with:
+          allure_results: Reports # Specify the directory containing Allure results
+          allure_history: allure-history # Specify the directory to store Allure history
+          keep_reports: 5 # Specify the number of previous reports to keep
