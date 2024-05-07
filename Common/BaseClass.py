@@ -47,7 +47,7 @@ class BaseClass:
             if "CI" in os.environ:
                 chrome_driver_path = "/usr/bin/chromedriver"
                 options = webdriver.ChromeOptions()
-                options.add_argument('--headless')
+                # options.add_argument('--headless')
                 options.add_argument('--no-sandbox')
                 options.add_argument('--disable-gpu')
                 serv = ChromeService(chrome_driver_path)
