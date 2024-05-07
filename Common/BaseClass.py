@@ -46,11 +46,16 @@ class BaseClass:
 
             if "CI" in os.environ:
                 chrome_driver_path = "/usr/bin/chromedriver"
+                options = webdriver.ChromeOptions()
+                options.add_argument('--headless')
+                options.add_argument('--no-sandbox')
+                options.add_argument('--disable-gpu')
+                serv = ChromeService(chrome_driver_path)
+                driver = webdriver.Chrome(service=serv, options=options)
             else:
                 chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
-            print(chrome_driver_path)
-            serv = ChromeService(chrome_driver_path)
-            driver = webdriver.Chrome(service=serv)
+                serv = ChromeService(chrome_driver_path)
+                driver = webdriver.Chrome(service=serv)
         driver.implicitly_wait(10)
         driver.maximize_window()
         yield driver
