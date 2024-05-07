@@ -29,6 +29,12 @@ jobs:
           pip install -r requirements.txt
         working-directory: .
 
+      - name: Debugging - Print Chrome Version
+        run: google-chrome --version
+
+      - name: Debugging - Print ChromeDriver Version
+        run: chromedriver --version
+
       - name: Run Selenium tests
         run: |
           pytest
