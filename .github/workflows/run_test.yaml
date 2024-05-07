@@ -33,6 +33,14 @@ jobs:
         run: |
           cp -r allure-report/history Reports/history/
 
+      - name: Debug
+        run: |
+          ls
+          cd Reports
+          ls
+          allure --version
+          
+
       - name: Generate Allure report
         run: |
           allure generate Reports --clean
