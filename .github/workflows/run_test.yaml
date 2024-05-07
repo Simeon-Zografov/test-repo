@@ -35,6 +35,9 @@ jobs:
       - name: Debugging - Print ChromeDriver Version
         run: chromedriver --version
 
+      - name: Debugging - Print ChromeDriver Path
+        run: which chromedriver
+
       - name: Run Selenium tests
         run: |
           pytest
