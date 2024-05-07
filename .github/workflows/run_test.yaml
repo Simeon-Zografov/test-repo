@@ -42,18 +42,39 @@ jobs:
           pytest
         working-directory: .
 
-      - name: Get Allure history # Step to retrieve Allure history
-        uses: actions/checkout@v3
-        if: always() # Execute even if previous steps fail
-        continue-on-error: true # Continue execution even if the step fails
-        with:
-          ref: gh-pages # Specify the branch to retrieve Allure history from
-          path: gh-pages # Set the destination path for Allure history
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Update Allure results"
+          git push origin main
 
-      - name: Allure report action # Step to generate Allure report
-        uses: simple-elf/allure-report-action@master
-        if: always() # Execute even if previous steps fail
+  generate_allure_report:
+    name: Generate Allure Report
+    needs: run_tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout test repository
+        uses: actions/checkout@v4
         with:
-          allure_results: Reports # Specify the directory containing Allure results
-          allure_history: allure-history # Specify the directory to store Allure history
-          keep_reports: 5 # Specify the number of previous reports to keep
+          repository: Simeon-Zografov/test-repo
+
+      - name: Install Allure CLI
+        run: |
+          sudo apt-add-repository ppa:qameta/allure -y
+          sudo apt-get update
+          sudo apt-get install allure -y
+
+      - name: Copy Allure history files
+        run: |
+          cp -r allure-report/history Reports/history/
+
+      - name: Generate Allure report
+        run: |
+          allure generate Reports --clean
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          git commit -m "Update Allure report"
+          git push origin main
