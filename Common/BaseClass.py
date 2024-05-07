@@ -48,6 +48,7 @@ class BaseClass:
                 chrome_driver_path = "/usr/bin/chromedriver"
             else:
                 chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
+            print(chrome_driver_path)
             serv = ChromeService(chrome_driver_path)
             driver = webdriver.Chrome(service=serv)
         driver.implicitly_wait(10)
