@@ -31,10 +31,10 @@ class BaseClass:
 
     @pytest.fixture(scope="class")
     def driver(self, request):
-        #print(os.getenv("CURRENT_ENV"))
+        # print(os.getenv("CURRENT_ENV"))
         browser = request.param
 
-        project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        # project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         if browser == "Edge":
             driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
 
@@ -42,11 +42,11 @@ class BaseClass:
             serv = EdgeService(edge_driver_path)
             driver = webdriver.Edge(service=serv)'''
         else:
-            # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
-            chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
+            '''chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
             serv = ChromeService(chrome_driver_path)
-            driver = webdriver.Chrome(service=serv)
+            driver = webdriver.Chrome(service=serv)'''
         driver.implicitly_wait(10)
         driver.maximize_window()
         yield driver
