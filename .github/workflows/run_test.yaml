@@ -23,47 +23,10 @@ jobs:
           pip install -r requirements.txt
         working-directory: .
 
-      - name: Prepare Allure history # Step to prepare Allure history directory
-        run: |
-          cd ..
-          mkdir -p Reports
-
-      - name: Debugging - Print Chrome Version
-        run: google-chrome --version
-
-      - name: Debugging - Print ChromeDriver Version
-        run: chromedriver --version
-
-      - name: Debugging - Print ChromeDriver Path
-        run: which chromedriver
-
       - name: Run Selenium tests
         run: |
           pytest
         working-directory: .
-
-      - name: Commit and push changes
-        run: |
-          git add .
-          git commit -m "Update Allure results"
-          git push origin main
-
-  generate_allure_report:
-    name: Generate Allure Report
-    needs: run_tests
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout test repository
-        uses: actions/checkout@v4
-        with:
-          repository: Simeon-Zografov/test-repo
-
-      - name: Install Allure CLI
-        run: |
-          sudo apt-add-repository ppa:qameta/allure -y
-          sudo apt-get update
-          sudo apt-get install allure -y
 
       - name: Copy Allure history files
         run: |
