@@ -38,6 +38,7 @@ jobs:
           ls
           cd Reports
           ls
+          brew install allure
           allure --version
           
 
