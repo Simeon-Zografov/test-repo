@@ -42,11 +42,11 @@ class BaseClass:
             serv = EdgeService(edge_driver_path)
             driver = webdriver.Edge(service=serv)'''
         else:
-            driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+            # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
-            '''chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
+            chrome_driver_path = os.path.join(project_folder, 'Resources', 'chromedriver')
             serv = ChromeService(chrome_driver_path)
-            driver = webdriver.Chrome(service=serv)'''
+            driver = webdriver.Chrome(service=serv)
         driver.implicitly_wait(10)
         driver.maximize_window()
         yield driver
