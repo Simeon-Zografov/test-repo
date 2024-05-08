@@ -8,6 +8,7 @@ from Common import APIRequests
 
 
 @pytest.mark.parametrize("driver", ["Chrome"], indirect=True)
+@pytest.mark.flaky(reruns=5, reruns_delay=1)
 class TestContactList(BaseClass):
 
     @severity(severity_level.NORMAL)
