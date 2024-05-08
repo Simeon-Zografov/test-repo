@@ -45,7 +45,7 @@ jobs:
       - name: Run Selenium tests
         continue-on-error: true
         run: |
-          if [ ("${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.test_options }}" != "All") ]; then
+          if [ ${{ github.event_name }} == 'workflow_dispatch' && ${{ github.event.inputs.test_options }} != 'All') ]; then
             if [ "${{ github.event.inputs.test_options }}" == "Accessibility" ]; then
               pytest Tests/test_Accessibility.py
             elif [ "${{ github.event.inputs.test_options }}" == "Components" ]; then
@@ -56,7 +56,7 @@ jobs:
               pytest Tests/test_EmailReader.py
             elif [ "${{ github.event.inputs.test_options }}" == "Landing page" ]; then
               pytest Tests/test_LandingPage.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Login" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Login' ]; then
               echo "Executed from Login"
               pytest Tests/test_Login.py
             elif [ "${{ github.event.inputs.test_options }}" == "Social Media Links" ]; then
