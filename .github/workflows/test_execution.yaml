@@ -3,7 +3,7 @@ name: Run Selenium Tests and publish report
 on:
   workflow_dispatch:
     inputs:
-      option:
+      test_options:
         description: 'Select test options'
         required: true
         default: 'All'
@@ -45,30 +45,25 @@ jobs:
       - name: Run Selenium tests
         continue-on-error: true
         run: |
-          if [[ github.event_name == ''workflow_dispatch'' && github.event.inputs.test_options != 'All' ]]; then
-            if [[ github.event.inputs.test_options == ''Accessibility'' ]]; then
+          if [ "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.test_options }}" != "All" ]; then
+            if [ "${{ github.event.inputs.test_options }}" == "Accessibility" ]; then
               pytest test_Accessibility.py
-            fi
-            if [[ github.event.inputs.test_options == ''Components'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Components" ]; then
               pytest test_Components.py
-            fi
-            if [[ github.event.inputs.test_options == ''Contact list'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Contact list" ]; then
               pytest test_ContactList.py
-            fi
-            if [[ github.event.inputs.test_options == ''Email reader'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Email reader" ]; then
               pytest test_EmailReader.py
-            fi
-            if [[ github.event.inputs.test_options == ''Landing page'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Landing page" ]; then
               pytest test_LandingPage.py
-            fi
-            if [[ github.event.inputs.test_options == ''Login'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Login" ]; then
               pytest test_Login.py
-            fi
-            if [[ github.event.inputs.test_options == ''Social Media Links'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Social Media Links" ]; then
               pytest test_SocialMediaLinks.py
-            fi
-            if [[ github.event.inputs.test_options == ''Visual Tests'' ]]; then
+            elif [ "${{ github.event.inputs.test_options }}" == "Visual Tests" ]; then
               pytest test_VisualTests.py
+            else
+              echo "Invalid option"
             fi
           else
             pytest
