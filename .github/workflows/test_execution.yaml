@@ -1,6 +1,24 @@
 name: Run Selenium Tests and publish report
 
-on: [workflow_dispatch]
+on:
+  workflow_dispatch:
+    inputs:
+      test_options:
+        description: 'Select test options'
+        required: true
+        default: 'All'
+        options:
+          - 'All'
+          - 'Accessibility'
+          - 'Components'
+          - 'Contact list'
+          - 'Email reader'
+          - 'Landing page'
+          - 'Login'
+          - 'Social Media Links'
+          - 'Visual Tests'
+  schedule:
+    - cron: '0 0 * * *' # Run every day at midnight UTC
 
 jobs:
   test:
@@ -26,7 +44,43 @@ jobs:
       - name: Run Selenium tests
         continue-on-error: true
         run: |
-          pytest
+          {% if github.event_name == 'workflow_dispatch' %}
+            {% set pytest_command = 'pytest' %}
+            {% if github.event.inputs.test_options != 'All' %}
+              {% for option in github.event.inputs.test_options %}
+                {% if option == 'Accessibility' %}
+                  {% set pytest_command = pytest_command ~ ' test_Accessibility.py' %}
+                {% endif %}
+                {% if option == 'Components' %}
+                  {% set pytest_command = pytest_command ~ ' test_Components.py' %}
+                {% endif %}
+                {% if option == 'Contact list' %}
+                  {% set pytest_command = pytest_command ~ ' test_ContactList.py' %}
+                {% endif %}
+                {% if option == 'Email reader' %}
+                  {% set pytest_command = pytest_command ~ ' test_EmailReader.py' %}
+                {% endif %}
+                {% if option == 'Components' %}
+                  {% set pytest_command = pytest_command ~ ' test_Components.py' %}
+                {% endif %}
+                {% if option == 'Landing page' %}
+                  {% set pytest_command = pytest_command ~ ' test_LandingPage.py' %}
+                {% endif %}
+                {% if option == 'Login' %}
+                  {% set pytest_command = pytest_command ~ ' test_Login.py' %}
+                {% endif %}
+                {% if option == 'Social Media Links' %}
+                  {% set pytest_command = pytest_command ~ ' test_SocialMediaLinks.py' %}
+                {% endif %}
+                {% if option == 'Visual Tests' %}
+                  {% set pytest_command = pytest_command ~ ' Visual Tests.py' %}
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+            {{ pytest_command }}
+          {% else %}
+            pytest
+          {% endif %}
         working-directory: .
 
       - name: Load test report history
