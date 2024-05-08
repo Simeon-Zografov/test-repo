@@ -45,7 +45,7 @@ jobs:
       - name: Run Selenium tests
         continue-on-error: true
         run: |
-          if [ ${{ github.event_name }} == 'workflow_dispatch' && ${{ github.event.inputs.test_options }} != 'All' ]; then
+          if [ ${{ github.event_name }} == 'workflow_dispatch' ] && [ ${{ github.event.inputs.test_options }} != 'All' ]; then
             if [ "${{ github.event.inputs.test_options }}" == "Accessibility" ]; then
               pytest Tests/test_Accessibility.py
             elif [ "${{ github.event.inputs.test_options }}" == "Components" ]; then
