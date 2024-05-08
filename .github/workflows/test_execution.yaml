@@ -57,6 +57,7 @@ jobs:
             elif [ "${{ github.event.inputs.test_options }}" == "Landing page" ]; then
               pytest Tests/test_LandingPage.py
             elif [ "${{ github.event.inputs.test_options }}" == "Login" ]; then
+              echo "Executed from Login"
               pytest Tests/test_Login.py
             elif [ "${{ github.event.inputs.test_options }}" == "Social Media Links" ]; then
               pytest Tests/test_SocialMediaLinks.py
@@ -66,6 +67,7 @@ jobs:
               echo "Invalid option"
             fi
           else
+            echo "Executed from outside of if statement"
             pytest
           fi
         working-directory: .
