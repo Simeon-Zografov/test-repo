@@ -3,7 +3,7 @@ name: Run Selenium Tests and publish report
 on:
   workflow_dispatch:
     inputs:
-      test_options:
+      option:
         description: 'Select test options'
         required: true
         default: 'All'
@@ -45,43 +45,34 @@ jobs:
       - name: Run Selenium tests
         continue-on-error: true
         run: |
-          {% if github.event_name == 'workflow_dispatch' %}
-            {% set pytest_command = 'pytest' %}
-            {% if github.event.inputs.test_options != 'All' %}
-              {% for option in github.event.inputs.test_options %}
-                {% if option == 'Accessibility' %}
-                  {% set pytest_command = pytest_command ~ ' test_Accessibility.py' %}
-                {% endif %}
-                {% if option == 'Components' %}
-                  {% set pytest_command = pytest_command ~ ' test_Components.py' %}
-                {% endif %}
-                {% if option == 'Contact list' %}
-                  {% set pytest_command = pytest_command ~ ' test_ContactList.py' %}
-                {% endif %}
-                {% if option == 'Email reader' %}
-                  {% set pytest_command = pytest_command ~ ' test_EmailReader.py' %}
-                {% endif %}
-                {% if option == 'Components' %}
-                  {% set pytest_command = pytest_command ~ ' test_Components.py' %}
-                {% endif %}
-                {% if option == 'Landing page' %}
-                  {% set pytest_command = pytest_command ~ ' test_LandingPage.py' %}
-                {% endif %}
-                {% if option == 'Login' %}
-                  {% set pytest_command = pytest_command ~ ' test_Login.py' %}
-                {% endif %}
-                {% if option == 'Social Media Links' %}
-                  {% set pytest_command = pytest_command ~ ' test_SocialMediaLinks.py' %}
-                {% endif %}
-                {% if option == 'Visual Tests' %}
-                  {% set pytest_command = pytest_command ~ ' Visual Tests.py' %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-            {{ pytest_command }}
-          {% else %}
+          if [[ github.event_name == ''workflow_dispatch'' && github.event.inputs.test_options != 'All' ]]; then
+            if [[ github.event.inputs.test_options == ''Accessibility'' ]]; then
+              pytest test_Accessibility.py
+            fi
+            if [[ github.event.inputs.test_options == ''Components'' ]]; then
+              pytest test_Components.py
+            fi
+            if [[ github.event.inputs.test_options == ''Contact list'' ]]; then
+              pytest test_ContactList.py
+            fi
+            if [[ github.event.inputs.test_options == ''Email reader'' ]]; then
+              pytest test_EmailReader.py
+            fi
+            if [[ github.event.inputs.test_options == ''Landing page'' ]]; then
+              pytest test_LandingPage.py
+            fi
+            if [[ github.event.inputs.test_options == ''Login'' ]]; then
+              pytest test_Login.py
+            fi
+            if [[ github.event.inputs.test_options == ''Social Media Links'' ]]; then
+              pytest test_SocialMediaLinks.py
+            fi
+            if [[ github.event.inputs.test_options == ''Visual Tests'' ]]; then
+              pytest test_VisualTests.py
+            fi
+          else
             pytest
-          {% endif %}
+          fi
         working-directory: .
 
       - name: Load test report history
