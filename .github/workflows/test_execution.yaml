@@ -1,0 +1,53 @@
+name: Run Selenium Tests and publish report
+
+on: [workflow_dispatch]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout test repository
+        uses: actions/checkout@v4
+        with:
+          repository: Simeon-Zografov/test-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+        working-directory: .
+
+      - name: Run Selenium tests
+        continue-on-error: true
+        run: |
+          pytest
+        working-directory: .
+
+      - name: Load test report history
+        uses: actions/checkout@v3
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Build test report
+        uses: simple-elf/allure-report-action@v1.7
+        if: always()
+        with:
+          gh_pages: gh-pages
+          allure_history: allure-history
+          allure_results: build/allure-results
+
+      - name: Publish test report
+        uses: peaceiris/actions-gh-pages@v3
+        if: always()
+        with:
+          github_token: ${{ secrets.ALLURE_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
