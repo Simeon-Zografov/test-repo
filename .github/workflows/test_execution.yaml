@@ -7,7 +7,7 @@ on:
         description: 'Select test options'
         required: true
         default: 'All'
-        type: string
+        type: choice
         options:
           - 'All'
           - 'Accessibility'
