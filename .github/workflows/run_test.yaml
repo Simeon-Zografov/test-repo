@@ -38,6 +38,7 @@ jobs:
           ls
           cd Reports
           ls
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           brew install allure
           allure --version
           
