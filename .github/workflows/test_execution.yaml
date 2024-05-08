@@ -47,21 +47,21 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" == "workflow_dispatch" && "${{ github.event.inputs.test_options }}" != "All" ]; then
             if [ "${{ github.event.inputs.test_options }}" == "Accessibility" ]; then
-              pytest test_Accessibility.py
+              pytest Tests/test_Accessibility.py
             elif [ "${{ github.event.inputs.test_options }}" == "Components" ]; then
-              pytest test_Components.py
+              pytest Tests/test_Components.py
             elif [ "${{ github.event.inputs.test_options }}" == "Contact list" ]; then
-              pytest test_ContactList.py
+              pytest Tests/test_ContactList.py
             elif [ "${{ github.event.inputs.test_options }}" == "Email reader" ]; then
-              pytest test_EmailReader.py
+              pytest Tests/test_EmailReader.py
             elif [ "${{ github.event.inputs.test_options }}" == "Landing page" ]; then
-              pytest test_LandingPage.py
+              pytest Tests/test_LandingPage.py
             elif [ "${{ github.event.inputs.test_options }}" == "Login" ]; then
-              pytest test_Login.py
+              pytest Tests/test_Login.py
             elif [ "${{ github.event.inputs.test_options }}" == "Social Media Links" ]; then
-              pytest test_SocialMediaLinks.py
+              pytest Tests/test_SocialMediaLinks.py
             elif [ "${{ github.event.inputs.test_options }}" == "Visual Tests" ]; then
-              pytest test_VisualTests.py
+              pytest Tests/test_VisualTests.py
             else
               echo "Invalid option"
             fi
