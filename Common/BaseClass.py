@@ -26,7 +26,7 @@ class BaseClass:
     url = "https://www.saucedemo.com/" # os.getenv("URL")
     username = "standard_user" # os.getenv("USERNAME")
     password = "secret_sauce" # os.getenv("PASSWORD")
-    browsers = ["Chrome"] # os.getenv("BROWSERS"), "Edge"
+    browsers = ["Chrome", "Edge"] # os.getenv("BROWSERS"), "Edge"
     #browsers = browsers.split(", ")
 
     @pytest.fixture(scope="class")
