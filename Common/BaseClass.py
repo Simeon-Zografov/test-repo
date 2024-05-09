@@ -36,11 +36,19 @@ class BaseClass:
 
         project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         if browser == "Edge":
-            driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
-
-            '''edge_driver_path = os.path.join(project_folder, 'Resources', 'msedgedriver')
-            serv = EdgeService(edge_driver_path)
-            driver = webdriver.Edge(service=serv)'''
+            # driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()))
+            if "CI" in os.environ:
+                edge_driver_path = "/usr/bin/msedgedriver"
+                options = webdriver.EdgeOptions()
+                options.add_argument('--headless')
+                options.add_argument('--no-sandbox')
+                options.add_argument('--disable-gpu')
+                serv = EdgeService(edge_driver_path)
+                driver = webdriver.Edge(service=serv, options=options)
+            else:
+                edge_driver_path = os.path.join(project_folder, 'Resources', 'msedgedriver')
+                serv = EdgeService(edge_driver_path)
+                driver = webdriver.Edge(service=serv)
         else:
             # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 
