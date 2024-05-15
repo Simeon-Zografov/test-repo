@@ -23,11 +23,12 @@ def check_with_screenshot(driver, cond, message):
 
 class BaseClass:
     load_dotenv()
-    url = "https://www.saucedemo.com/" # os.getenv("URL")
-    username = "standard_user" # os.getenv("USERNAME")
-    password = "secret_sauce" # os.getenv("PASSWORD")
-    browsers = ["Chrome", "Edge"] # os.getenv("BROWSERS"), "Edge"
-    #browsers = browsers.split(", ")
+    os.getenv("URL")  # url = "https://www.saucedemo.com/" # os.getenv("URL")
+    os.getenv("USERNAME")  # username = "standard_user"  # os.getenv("USERNAME")
+    password = "secret_sauce"  # os.getenv("PASSWORD")
+    browsers = ["Chrome", "Edge"]  # os.getenv("BROWSERS"), "Edge"
+
+    # browsers = browsers.split(", ")
 
     @pytest.fixture(scope="class")
     def driver(self, request):

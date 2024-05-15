@@ -26,6 +26,11 @@ jobs:
     name: Run Selenium Tests
     runs-on: ubuntu-latest
 
+    environment: 'QA'
+    env:
+      URL: ${{ vars.URL }}
+      USERNAME: ${{ vars.USERNAME }}
+
     steps:
       - name: Checkout test repository
         uses: actions/checkout@v4
