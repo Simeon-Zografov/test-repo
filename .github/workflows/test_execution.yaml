@@ -41,6 +41,8 @@ jobs:
       URL: ${{ vars.URL }}
       USERNAME: ${{ vars.USERNAME }}
       PASSWORD: ${{ secrets.PASSWORD }}
+      EMAIL: ${{ vars.EMAIL }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
 
     steps:
       - name: Set browsers variable
