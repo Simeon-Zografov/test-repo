@@ -1,6 +1,8 @@
 import email
 import imaplib
 
+from Common.BaseClass import BaseClass
+
 
 def get_last_email(email_address, password, from_email):
 
@@ -39,7 +41,7 @@ def get_last_email(email_address, password, from_email):
 
 
 def get_latest_email_subject():
-    email_body = get_last_email("simeon.hhl.qa@gmail.com", "vyye jvuw uyft lpal", 'no-reply@dev.siworld.io')
+    email_body = get_last_email(BaseClass.email, BaseClass.email_password, 'no-reply@dev.siworld.io')
     if email_body is not None:
         email_subject = email_body["Subject"]
         return email_subject
