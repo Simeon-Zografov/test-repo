@@ -3,6 +3,16 @@ name: Run Selenium Tests and publish report
 on:
   workflow_dispatch:
     inputs:
+      browser_options:
+        description: 'Select browser'
+        required: true
+        default: 'All'
+        type: choice
+        options:
+          - 'All'
+          - 'Chrome'
+          - 'Edge'
+
       test_options:
         description: 'Select test options'
         required: true
@@ -30,8 +40,17 @@ jobs:
     env:
       URL: ${{ vars.URL }}
       USERNAME: ${{ vars.USERNAME }}
+      PASSWORD: ${{ secrets.PASSWORD }}
 
     steps:
+      - name: Set browsers variable
+        run: |
+          if [ ${{ github.event.inputs.browser_options }} != 'All' ]; then
+            echo "BROWSERS=["Chrome", "Edge"]" >> "$GITHUB_ENV"
+          else
+            echo "BROWSERS=${{ github.event.inputs.browser_options }}" >> "$GITHUB_ENV"
+          fi
+
       - name: Checkout test repository
         uses: actions/checkout@v4
         with:
