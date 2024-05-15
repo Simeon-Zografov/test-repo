@@ -41,8 +41,6 @@ def get_last_email(email_address, password, from_email):
 
 
 def get_latest_email_subject():
-    print(BaseClass.email)
-    print(BaseClass.email_password)
     email_body = get_last_email(BaseClass.email, BaseClass.email_password, 'no-reply@dev.siworld.io')
     if email_body is not None:
         email_subject = email_body["Subject"]

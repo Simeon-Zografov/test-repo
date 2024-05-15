@@ -72,28 +72,26 @@ jobs:
         continue-on-error: true
         run: |
           if [ ${{ github.event_name }} == 'workflow_dispatch' ] && [ ${{ github.event.inputs.test_options }} != 'All' ]; then
-            if [ "${{ github.event.inputs.test_options }}" == "Accessibility" ]; then
+            if [ ${{ github.event.inputs.test_options }} == 'Accessibility' ]; then
               pytest Tests/test_Accessibility.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Components" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Components' ]; then
               pytest Tests/test_Components.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Contact list" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Contact list' ]; then
               pytest Tests/test_ContactList.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Email reader" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Email reader' ]; then
               pytest Tests/test_EmailReader.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Landing page" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Landing page' ]; then
               pytest Tests/test_LandingPage.py
             elif [ ${{ github.event.inputs.test_options }} == 'Login' ]; then
-              echo "Executed from Login"
               pytest Tests/test_Login.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Social Media Links" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Social Media Links' ]; then
               pytest Tests/test_SocialMediaLinks.py
-            elif [ "${{ github.event.inputs.test_options }}" == "Visual Tests" ]; then
+            elif [ ${{ github.event.inputs.test_options }} == 'Visual Tests' ]; then
               pytest Tests/test_VisualTests.py
             else
               echo "Invalid option"
             fi
           else
-            echo "Executed from outside of if statement"
             pytest
           fi
         working-directory: .
