@@ -1,2 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu May 16 06:47:09 GMT 2024","Thu May 16 06:47:10 GMT 2024","856","Tests","test_EmailReader","TestEmailReader","","","Check the latest notification email subject",""
