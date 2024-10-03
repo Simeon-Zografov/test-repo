@@ -1,0 +1,361 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Tests",
+    "children" : [ {
+      "name" : "test_Accessibility",
+      "children" : [ {
+        "name" : "Check the landing page accessibility",
+        "uid" : "41f23bb6568d9547",
+        "parentUid" : "bc0b69c34da18bf4606ba1b70ea3da69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765906037,
+          "stop" : 1713765907397,
+          "duration" : 1360
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Check the home page accessibility",
+        "uid" : "f66f541ca39b503",
+        "parentUid" : "bc0b69c34da18bf4606ba1b70ea3da69",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765907417,
+          "stop" : 1713765907856,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "bc0b69c34da18bf4606ba1b70ea3da69"
+    }, {
+      "name" : "test_ContactList",
+      "children" : [ {
+        "name" : "Contact list displays wright names",
+        "uid" : "9b6af43f9a49044d",
+        "parentUid" : "e3086b33059ec535abe62718e723507e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765908995,
+          "stop" : 1713765911057,
+          "duration" : 2062
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "e3086b33059ec535abe62718e723507e"
+    }, {
+      "name" : "test_EmailReader",
+      "children" : [ {
+        "name" : "Check the latest notification email subject",
+        "uid" : "51eeecf791c80d2f",
+        "parentUid" : "f3da3dd51c8a54e06881e0a31f5c1a78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765912119,
+          "stop" : 1713765913876,
+          "duration" : 1757
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "f3da3dd51c8a54e06881e0a31f5c1a78"
+    }, {
+      "name" : "test_LandingPage",
+      "children" : [ {
+        "name" : "Login logo is visible",
+        "uid" : "8df62094814a4db6",
+        "parentUid" : "5005ccc769f938fb654af75b8bb741ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765914991,
+          "stop" : 1713765915247,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Login logo is visible",
+        "uid" : "82a7443c7678b1f5",
+        "parentUid" : "5005ccc769f938fb654af75b8bb741ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765921753,
+          "stop" : 1713765923437,
+          "duration" : 1684
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      } ],
+      "uid" : "5005ccc769f938fb654af75b8bb741ff"
+    }, {
+      "name" : "test_Login",
+      "children" : [ {
+        "name" : "Unsuccessful login",
+        "uid" : "2a49c8fd3e95262c",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765924695,
+          "stop" : 1713765925158,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "'secret_sauce'", "''" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "711edc460b45fbb4",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765925159,
+          "stop" : 1713765925299,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "''", "'standard_user'" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "5fc4d571c30f050b",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765925300,
+          "stop" : 1713765925540,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "'secret_sauce'", "'standard_use'" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "94e3172b1117e95d",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765925541,
+          "stop" : 1713765925711,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'", "'secret_sauc'", "'standard_user'" ]
+      }, {
+        "name" : "Successful login",
+        "uid" : "10664d94d74914d8",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765925713,
+          "stop" : 1713765926229,
+          "duration" : 516
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "b543e3925cb1eead",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765931296,
+          "stop" : 1713765934934,
+          "duration" : 3638
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'", "'secret_sauce'", "''" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "ebf37d725b23899",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765934937,
+          "stop" : 1713765935361,
+          "duration" : 424
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'", "''", "'standard_user'" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "f2f69149842bcdc9",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765935363,
+          "stop" : 1713765936005,
+          "duration" : 642
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'", "'secret_sauce'", "'standard_use'" ]
+      }, {
+        "name" : "Unsuccessful login",
+        "uid" : "211ae2df31c0c5ed",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765936008,
+          "stop" : 1713765936267,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'", "'secret_sauc'", "'standard_user'" ]
+      }, {
+        "name" : "Successful login",
+        "uid" : "7facde15872df16b",
+        "parentUid" : "2e21abe3cda8a17f9199844fa907cfda",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765936269,
+          "stop" : 1713765937474,
+          "duration" : 1205
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      } ],
+      "uid" : "2e21abe3cda8a17f9199844fa907cfda"
+    }, {
+      "name" : "test_SocialMediaLinks",
+      "children" : [ {
+        "name" : "Twitter link",
+        "uid" : "89e2136a338f299b",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765938742,
+          "stop" : 1713765943159,
+          "duration" : 4417
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Manually open new tab",
+        "uid" : "82015f019f05336a",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765943161,
+          "stop" : 1713765944015,
+          "duration" : 854
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Navigate to iframe",
+        "uid" : "b970883521db3668",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765944016,
+          "stop" : 1713765945871,
+          "duration" : 1855
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Twitter link",
+        "uid" : "e83d8224bc4702b2",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765950976,
+          "stop" : 1713765978194,
+          "duration" : 27218
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      }, {
+        "name" : "Manually open new tab",
+        "uid" : "46e6fe9e21a2235c",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765978197,
+          "stop" : 1713765998142,
+          "duration" : 19945
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      }, {
+        "name" : "Navigate to iframe",
+        "uid" : "670e914945714584",
+        "parentUid" : "4326a8b1e9f5418645af3ddb1b582e5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765998144,
+          "stop" : 1713766006087,
+          "duration" : 7943
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      } ],
+      "uid" : "4326a8b1e9f5418645af3ddb1b582e5b"
+    }, {
+      "name" : "test_VisualTests",
+      "children" : [ {
+        "name" : "Visual check of the Landing page",
+        "uid" : "bba3672b0c44185a",
+        "parentUid" : "2546fc4485e3db979a7ba3d24aee966b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713766007613,
+          "stop" : 1713766011734,
+          "duration" : 4121
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page",
+        "uid" : "bf6e9e799fa80026",
+        "parentUid" : "2546fc4485e3db979a7ba3d24aee966b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713766011735,
+          "stop" : 1713766018933,
+          "duration" : 7198
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page after burger button click",
+        "uid" : "2b68172bf5d3faac",
+        "parentUid" : "2546fc4485e3db979a7ba3d24aee966b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713766018934,
+          "stop" : 1713766027004,
+          "duration" : 8070
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page",
+        "uid" : "aa3112994ba6ca49",
+        "parentUid" : "2546fc4485e3db979a7ba3d24aee966b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713766027006,
+          "stop" : 1713766039681,
+          "duration" : 12675
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page after burger button click",
+        "uid" : "1dd604b865948585",
+        "parentUid" : "2546fc4485e3db979a7ba3d24aee966b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713766039682,
+          "stop" : 1713766053238,
+          "duration" : 13556
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "2546fc4485e3db979a7ba3d24aee966b"
+    } ],
+    "uid" : "fc39173c9dc08e281c680147b63fcad9"
+  } ]
+}

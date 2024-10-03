@@ -1,0 +1,271 @@
+[ {
+  "uid" : "5fc4d571c30f050b",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765925300,
+    "stop" : 1713765925540,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8df62094814a4db6",
+  "name" : "Login logo is visible",
+  "time" : {
+    "start" : 1713765914991,
+    "stop" : 1713765915247,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b543e3925cb1eead",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765931296,
+    "stop" : 1713765934934,
+    "duration" : 3638
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a49c8fd3e95262c",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765924695,
+    "stop" : 1713765925158,
+    "duration" : 463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41f23bb6568d9547",
+  "name" : "Check the landing page accessibility",
+  "time" : {
+    "start" : 1713765906037,
+    "stop" : 1713765907397,
+    "duration" : 1360
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b68172bf5d3faac",
+  "name" : "Visual check of the Home page after burger button click",
+  "time" : {
+    "start" : 1713766018934,
+    "stop" : 1713766027004,
+    "duration" : 8070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "711edc460b45fbb4",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765925159,
+    "stop" : 1713765925299,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f66f541ca39b503",
+  "name" : "Check the home page accessibility",
+  "time" : {
+    "start" : 1713765907417,
+    "stop" : 1713765907856,
+    "duration" : 439
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2f69149842bcdc9",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765935363,
+    "stop" : 1713765936005,
+    "duration" : 642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94e3172b1117e95d",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765925541,
+    "stop" : 1713765925711,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51eeecf791c80d2f",
+  "name" : "Check the latest notification email subject",
+  "time" : {
+    "start" : 1713765912119,
+    "stop" : 1713765913876,
+    "duration" : 1757
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82a7443c7678b1f5",
+  "name" : "Login logo is visible",
+  "time" : {
+    "start" : 1713765921753,
+    "stop" : 1713765923437,
+    "duration" : 1684
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "670e914945714584",
+  "name" : "Navigate to iframe",
+  "time" : {
+    "start" : 1713765998144,
+    "stop" : 1713766006087,
+    "duration" : 7943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "211ae2df31c0c5ed",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765936008,
+    "stop" : 1713765936267,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e83d8224bc4702b2",
+  "name" : "Twitter link",
+  "time" : {
+    "start" : 1713765950976,
+    "stop" : 1713765978194,
+    "duration" : 27218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7facde15872df16b",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1713765936269,
+    "stop" : 1713765937474,
+    "duration" : 1205
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "bba3672b0c44185a",
+  "name" : "Visual check of the Landing page",
+  "time" : {
+    "start" : 1713766007613,
+    "stop" : 1713766011734,
+    "duration" : 4121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b970883521db3668",
+  "name" : "Navigate to iframe",
+  "time" : {
+    "start" : 1713765944016,
+    "stop" : 1713765945871,
+    "duration" : 1855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ebf37d725b23899",
+  "name" : "Unsuccessful login",
+  "time" : {
+    "start" : 1713765934937,
+    "stop" : 1713765935361,
+    "duration" : 424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dd604b865948585",
+  "name" : "Visual check of the broken Home page after burger button click",
+  "time" : {
+    "start" : 1713766039682,
+    "stop" : 1713766053238,
+    "duration" : 13556
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf6e9e799fa80026",
+  "name" : "Visual check of the Home page",
+  "time" : {
+    "start" : 1713766011735,
+    "stop" : 1713766018933,
+    "duration" : 7198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46e6fe9e21a2235c",
+  "name" : "Manually open new tab",
+  "time" : {
+    "start" : 1713765978197,
+    "stop" : 1713765998142,
+    "duration" : 19945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b6af43f9a49044d",
+  "name" : "Contact list displays wright names",
+  "time" : {
+    "start" : 1713765908995,
+    "stop" : 1713765911057,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82015f019f05336a",
+  "name" : "Manually open new tab",
+  "time" : {
+    "start" : 1713765943161,
+    "stop" : 1713765944015,
+    "duration" : 854
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa3112994ba6ca49",
+  "name" : "Visual check of the broken Home page",
+  "time" : {
+    "start" : 1713766027006,
+    "stop" : 1713766039681,
+    "duration" : 12675
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "10664d94d74914d8",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1713765925713,
+    "stop" : 1713765926229,
+    "duration" : 516
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "89e2136a338f299b",
+  "name" : "Twitter link",
+  "time" : {
+    "start" : 1713765938742,
+    "stop" : 1713765943159,
+    "duration" : 4417
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

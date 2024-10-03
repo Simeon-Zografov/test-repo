@@ -1,0 +1,200 @@
+{
+  "uid" : "b970883521db3668",
+  "name" : "Navigate to iframe",
+  "fullName" : "Tests.test_SocialMediaLinks.TestLogin#test_3",
+  "historyId" : "08037ddc72d1fb7f6f84345fae7a412d",
+  "time" : {
+    "start" : 1713765944016,
+    "stop" : 1713765945871,
+    "duration" : 1855
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1713765937557,
+      "stop" : 1713765938741,
+      "duration" : 1184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1713765904261,
+      "stop" : 1713765904271,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "iFrame heather is visible from within the frame",
+      "time" : {
+        "start" : 1713765945805,
+        "stop" : 1713765945815,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "iFrame heather is visible from within the frame",
+      "time" : {
+        "start" : 1713765945857,
+        "stop" : 1713765945871,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1713765945872,
+      "stop" : 1713765945965,
+      "duration" : 93
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Social Media Links"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_SocialMediaLinks"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "30966-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_SocialMediaLinks"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "92a27097e327f61c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765359585,
+          "stop" : 1713765361604,
+          "duration" : 2019
+        }
+      }, {
+        "uid" : "244a6205d7945d7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522962926,
+          "stop" : 1713522964891,
+          "duration" : 1965
+        }
+      }, {
+        "uid" : "45d6468799a69b6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522290146,
+          "stop" : 1713522292088,
+          "duration" : 1942
+        }
+      }, {
+        "uid" : "4c56bc04a8bb172c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521684614,
+          "stop" : 1713521686586,
+          "duration" : 1972
+        }
+      }, {
+        "uid" : "fec92d29e40be1c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521279403,
+          "stop" : 1713521281242,
+          "duration" : 1839
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b970883521db3668.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

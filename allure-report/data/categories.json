@@ -1,0 +1,133 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "children" : [ {
+        "name" : "Check the landing page accessibility",
+        "uid" : "41f23bb6568d9547",
+        "parentUid" : "8c7ef59833ce624d91e5925e599411b3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765906037,
+          "stop" : 1713765907397,
+          "duration" : 1360
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "8c7ef59833ce624d91e5925e599411b3"
+    }, {
+      "name" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "children" : [ {
+        "name" : "Check the home page accessibility",
+        "uid" : "f66f541ca39b503",
+        "parentUid" : "35904ac2e4c3ae46f569e43c4ca9468c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765907417,
+          "stop" : 1713765907856,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "35904ac2e4c3ae46f569e43c4ca9468c"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_Login.py\u001B[0m:57 in test_2() -> check_with_screenshot(\n\u001B[31mBaseClass.py\u001B[0m:14 in check_with_screenshot() -> with check, allure.step(message):\n\u001B[31mBaseClass.py\u001B[0m:21 in check_with_screenshot -> assert cond\n\u001B[31mAssertionError\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "Successful login",
+        "uid" : "10664d94d74914d8",
+        "parentUid" : "07613e7ebd80a789f5309e97100ce906",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765925713,
+          "stop" : 1713765926229,
+          "duration" : 516
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Successful login",
+        "uid" : "7facde15872df16b",
+        "parentUid" : "07613e7ebd80a789f5309e97100ce906",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765936269,
+          "stop" : 1713765937474,
+          "duration" : 1205
+        },
+        "flaky" : false,
+        "parameters" : [ "'Edge'" ]
+      } ],
+      "uid" : "07613e7ebd80a789f5309e97100ce906"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:23 in test_1() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:25 in test_1 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "Twitter link",
+        "uid" : "89e2136a338f299b",
+        "parentUid" : "bf556e9cd6fa10d5f3248f84fb67a196",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765938742,
+          "stop" : 1713765943159,
+          "duration" : 4417
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "bf556e9cd6fa10d5f3248f84fb67a196"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0massert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:37 in test_2() -> with check, allure.step(\"Check twitter heather tex\"):\n\u001B[31mtest_SocialMediaLinks.py\u001B[0m:38 in test_2 -> assert home_page_obj.get_twitter_heather_text() == \"Sauce Labs\"\n\u001B[31mAssertionError: assert 'Profile' == 'Sauce Labs'\n  \n  - Sauce Labs\n  + Profile\n\u001B[0m\n\n------------------------------------------------------------\nFailed Checks: 1",
+      "children" : [ {
+        "name" : "Manually open new tab",
+        "uid" : "82015f019f05336a",
+        "parentUid" : "a936b1bd5f8a62da45b5a41d802c3eba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713765943161,
+          "stop" : 1713765944015,
+          "duration" : 854
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "a936b1bd5f8a62da45b5a41d802c3eba"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> visual_comparison(driver, \"home_page\", \"main\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "children" : [ {
+        "name" : "Visual check of the broken Home page",
+        "uid" : "aa3112994ba6ca49",
+        "parentUid" : "6a875caf7026948b00536babbfbb7266",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713766027006,
+          "stop" : 1713766039681,
+          "duration" : 12675
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "6a875caf7026948b00536babbfbb7266"
+    }, {
+      "name" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> visual_comparison(driver, \"home_page\", \"after_burger_button_click\")\n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+      "children" : [ {
+        "name" : "Visual check of the broken Home page after burger button click",
+        "uid" : "1dd604b865948585",
+        "parentUid" : "fbab6f7ab1681f536392a82b587f1ed7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1713766039682,
+          "stop" : 1713766053238,
+          "duration" : 13556
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "fbab6f7ab1681f536392a82b587f1ed7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

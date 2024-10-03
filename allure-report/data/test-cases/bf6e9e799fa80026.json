@@ -1,0 +1,200 @@
+{
+  "uid" : "bf6e9e799fa80026",
+  "name" : "Visual check of the Home page",
+  "fullName" : "Tests.test_VisualTests.TestVisual#test_2",
+  "historyId" : "7e2162c355f3bd4c8610625a9983e516",
+  "time" : {
+    "start" : 1713766011735,
+    "stop" : 1713766018933,
+    "duration" : 7198
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1713766006212,
+      "stop" : 1713766007612,
+      "duration" : 1400
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1713765904261,
+      "stop" : 1713765904271,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Visual check for home_page in 1 iteration",
+      "time" : {
+        "start" : 1713766015490,
+        "stop" : 1713766015490,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Visual check for home_page in 2 iteration",
+      "time" : {
+        "start" : 1713766018930,
+        "stop" : 1713766018930,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1713766053239,
+      "stop" : 1713766053335,
+      "duration" : 96
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Home page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_VisualTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVisual"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "30966-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_VisualTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "60094675a8fb8580",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765425522,
+          "stop" : 1713765432857,
+          "duration" : 7335
+        }
+      }, {
+        "uid" : "28f4715baa36ca97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713523030787,
+          "stop" : 1713523038075,
+          "duration" : 7288
+        }
+      }, {
+        "uid" : "a90409fa389ddfea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522359158,
+          "stop" : 1713522366403,
+          "duration" : 7245
+        }
+      }, {
+        "uid" : "97e5f501d42166e1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521750695,
+          "stop" : 1713521762439,
+          "duration" : 11744
+        }
+      }, {
+        "uid" : "651d3873b1ff80af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521347560,
+          "stop" : 1713521354808,
+          "duration" : 7248
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bf6e9e799fa80026.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

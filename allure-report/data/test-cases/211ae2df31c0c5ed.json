@@ -1,0 +1,191 @@
+{
+  "uid" : "211ae2df31c0c5ed",
+  "name" : "Unsuccessful login",
+  "fullName" : "Tests.test_Login.TestLogin#test_1",
+  "historyId" : "39802564165ab5aad57da0e625718d99",
+  "time" : {
+    "start" : 1713765936008,
+    "stop" : 1713765936267,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1713765926305,
+      "stop" : 1713765931295,
+      "duration" : 4990
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1713765904261,
+      "stop" : 1713765904271,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Error message is visible",
+      "time" : {
+        "start" : 1713765936227,
+        "stop" : 1713765936227,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1713765937474,
+      "stop" : 1713765937555,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "30966-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Edge'"
+  }, {
+    "name" : "password",
+    "value" : "'secret_sauc'"
+  }, {
+    "name" : "username",
+    "value" : "'standard_user'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "f08c6393c5f31e85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713765351826,
+          "stop" : 1713765352076,
+          "duration" : 250
+        }
+      }, {
+        "uid" : "70fd5a0d765dcddf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522954635,
+          "stop" : 1713522954859,
+          "duration" : 224
+        }
+      }, {
+        "uid" : "1796580dff8d2c18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713522281518,
+          "stop" : 1713522281769,
+          "duration" : 251
+        }
+      }, {
+        "uid" : "75516dbb20c13643",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521676007,
+          "stop" : 1713521676218,
+          "duration" : 211
+        }
+      }, {
+        "uid" : "25aa39f2cfe1408",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713521271166,
+          "stop" : 1713521271400,
+          "duration" : 234
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "211ae2df31c0c5ed.json",
+  "parameterValues" : [ "'Edge'", "'secret_sauc'", "'standard_user'" ]
+}
