@@ -32,7 +32,7 @@ class BaseClass:
     print(browsers)
     email = os.getenv("EMAIL")
     email_password = os.getenv("EMAIL_PASSWORD")
-    browsers = browsers.split(", ")
+    browsers = browsers.split(",")
     print(browsers)
 
     @pytest.fixture(scope="class")
