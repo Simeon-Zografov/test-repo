@@ -33,7 +33,6 @@ class BaseClass:
 
     @pytest.fixture(scope="class")
     def driver(self, request):
-        print(os.getenv("CURRENT_ENV"))
         browser = request.param
 
         project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -53,8 +52,7 @@ class BaseClass:
                 serv = EdgeService(EdgeChromiumDriverManager().install())
                 driver = webdriver.Edge(service=serv, options=options)
             else:
-                chrome_driver_path = ChromeDriverManager().install()
-                chrome_service = ChromeService(executable_path=chrome_driver_path)
+                chrome_service = ChromeService(executable_path='/usr/local/share/chrome_driver')
 
                 options = ChromeOptions()
                 options.add_argument("--headless")
