@@ -65,6 +65,13 @@ jobs:
 
       - name: Run Selenium tests
         continue-on-error: true
+        env:
+          URL: ${{ vars.URL }}
+          USERNAME: ${{ vars.USERNAME }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          BROWSERS: ${{ vars.BROWSERS }}
+          EMAIL: ${{ vars.EMAIL }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: |
           if [ "${{ github.event_name }}" == 'workflow_dispatch' ] && [ "${{ github.event.inputs.test_options }}" != 'All' ]; then
             if [ "${{ github.event.inputs.test_options }}" == 'Accessibility' ]; then
