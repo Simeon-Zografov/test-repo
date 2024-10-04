@@ -8,7 +8,7 @@ import pytest
 def setup_reporting_directories(request):
     # Setup all needed paths
     project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    reports_path = os.path.join(project_folder, 'Reports')
+    reports_path = os.path.join(project_folder, 'allure-results')
     reports_history_path = os.path.join(reports_path, 'history')
     allure_history_path = os.path.join(project_folder, 'allure-report', 'history')
 
@@ -25,9 +25,16 @@ def setup_reporting_directories(request):
         shutil.copytree(allure_history_path, reports_history_path)
 
 
-def pytest_sessionfinish():
-    # Generate the Allure report after all tests have completed
+def pytest_terminal_summary():
+    # Generate the Allure report after the test session has completely finished
     project_folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    reports_path = os.path.join(project_folder, 'Reports')
-    command = f"allure generate {reports_path} --clean"
-    subprocess.run(command, shell=True, check=True)
+    reports_path = os.path.join(project_folder, 'allure-results')
+
+    try:
+        command = f"allure generate {reports_path} --clean"
+        subprocess.run(command, shell=True, check=True)
+        print("Allure report successfully generated")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to generate allure report: {e}")
+    except FileNotFoundError:
+        print("Allure command not found. Make sure it is installed.")

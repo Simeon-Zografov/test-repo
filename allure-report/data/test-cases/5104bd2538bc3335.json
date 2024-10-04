@@ -1,0 +1,173 @@
+{
+  "uid" : "5104bd2538bc3335",
+  "name" : "Visual check of the Home page after burger button click",
+  "fullName" : "Tests.test_VisualTests.TestVisual#test_3",
+  "historyId" : "f351905492f20e257d3c84933f640453",
+  "time" : {
+    "start" : 1728024762260,
+    "stop" : 1728024778377,
+    "duration" : 16117
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:38 in test_3() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+  "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:38 in test_3() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1728024501288,
+      "stop" : 1728024501301,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1728024729895,
+      "stop" : 1728024735086,
+      "duration" : 5191
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:38 in test_3() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+    "statusTrace" : "\u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:38 in test_3() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
+    "steps" : [ {
+      "name" : "Visual check for home_page in 1 iteration",
+      "time" : {
+        "start" : 1728024770098,
+        "stop" : 1728024770582,
+        "duration" : 484
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/simeonzografov/PycharmProjects/newDemoProject2/Common/VisualChack.py\", line 38, in visual_comparison\n    assert mismatch == 0\n           ^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c70d35d0a58cee65",
+        "name" : "screenshot",
+        "source" : "c70d35d0a58cee65.png",
+        "type" : "image/png",
+        "size" : 210646
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Visual check for home_page in 2 iteration",
+      "time" : {
+        "start" : 1728024777055,
+        "stop" : 1728024777555,
+        "duration" : 500
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/simeonzografov/PycharmProjects/newDemoProject2/Common/VisualChack.py\", line 38, in visual_comparison\n    assert mismatch == 0\n           ^^^^^^^^^^^^^\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68bbf6081703194d",
+        "name" : "screenshot",
+        "source" : "68bbf6081703194d.png",
+        "type" : "image/png",
+        "size" : 194904
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1728024808534,
+      "stop" : 1728024808689,
+      "duration" : 155
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Home page"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_VisualTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVisual"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_VisualTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5104bd2538bc3335.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

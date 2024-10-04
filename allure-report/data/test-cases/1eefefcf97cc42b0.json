@@ -1,0 +1,145 @@
+{
+  "uid" : "1eefefcf97cc42b0",
+  "name" : "Check the landing page accessibility",
+  "fullName" : "Tests.test_Accessibility.TestAccessibility#test_1",
+  "historyId" : "d3e1758d03982814c02f1852d8cdaadd",
+  "time" : {
+    "start" : 1728024509497,
+    "stop" : 1728024513409,
+    "duration" : 3912
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+  "statusTrace" : "self = <Tests.test_Accessibility.TestAccessibility object at 0x105811550>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ce2c63e9bd92ea8a2f82a76b9daa5e65\")>\n\n>   ???\nE   AssertionError: assert 4 == 0\nE    +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])\n\n/Users/simeonzografov/PycharmProjects/newDemoProject/Tests/test_Accessibility.py:32: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup_reporting_directories",
+    "time" : {
+      "start" : 1728024501288,
+      "stop" : 1728024501301,
+      "duration" : 13
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver",
+    "time" : {
+      "start" : 1728024501301,
+      "stop" : 1728024509490,
+      "duration" : 8189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+    "statusTrace" : "self = <Tests.test_Accessibility.TestAccessibility object at 0x105811550>, driver = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"ce2c63e9bd92ea8a2f82a76b9daa5e65\")>\n\n>   ???\nE   AssertionError: assert 4 == 0\nE    +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])\n\n/Users/simeonzografov/PycharmProjects/newDemoProject/Tests/test_Accessibility.py:32: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "35ec054e8457f924",
+      "name" : "Axe Accessibility Report",
+      "source" : "35ec054e8457f924.txt",
+      "type" : "text/plain",
+      "size" : 2019
+    }, {
+      "uid" : "b80d50228ae42d69",
+      "name" : "screenshot",
+      "source" : "b80d50228ae42d69.png",
+      "type" : "image/png",
+      "size" : 34050
+    }, {
+      "uid" : "f2a802e301610b98",
+      "name" : "stdout",
+      "source" : "f2a802e301610b98.txt",
+      "type" : "text/plain",
+      "size" : 34
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1728024523770,
+      "stop" : 1728024523861,
+      "duration" : 91
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Accessibility"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_Accessibility"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAccessibility"
+  }, {
+    "name" : "host",
+    "value" : "Simeons-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "540-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Tests.test_Accessibility"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "driver",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1eefefcf97cc42b0.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
