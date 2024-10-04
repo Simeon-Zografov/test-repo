@@ -37,7 +37,7 @@ jobs:
       - name: Set device variable
         run: |
           if [ "${{ github.event.inputs.browser_options }}" == 'All' ]; then
-            echo "BROWSERS='Chrome, Edge'" >> "$GITHUB_ENV"
+            echo "BROWSERS=Chrome,Edge" >> "$GITHUB_ENV"
           elif [ "${{ github.event.inputs.browser_options }}" == 'Chrome' ]; then
             echo "BROWSERS=Chrome" >> "$GITHUB_ENV"
           elif [ "${{ github.event.inputs.browser_options }}" == 'Edge' ]; then
