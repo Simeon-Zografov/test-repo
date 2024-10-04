@@ -29,6 +29,8 @@ class BaseClass:
     username = os.getenv("USERNAME")
     password = os.getenv("PASSWORD")
     browsers = os.getenv("BROWSERS")
+    email = os.getenv("EMAIL")
+    email_password = os.getenv("EMAIL_PASSWORD")
     browsers = browsers.split(", ")
 
     @pytest.fixture(scope="class")
