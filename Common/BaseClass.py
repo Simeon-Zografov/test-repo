@@ -29,9 +29,11 @@ class BaseClass:
     username = os.getenv("USERNAME")
     password = os.getenv("PASSWORD")
     browsers = os.getenv("BROWSERS")
+    print(browsers)
     email = os.getenv("EMAIL")
     email_password = os.getenv("EMAIL_PASSWORD")
-    browsers = browsers.split(",")
+    browsers = browsers.split(", ")
+    print(browsers)
 
     @pytest.fixture(scope="class")
     def driver(self, request):
