@@ -60,8 +60,11 @@ class BaseClass:
                 options.add_argument("--disable-dev-shm-usage")
                 options.add_argument("--disable-extensions")
                 options.add_argument("--disable-infobars")
-                chrome_driver_path = "/usr/local/share/chrome_driver/chromedriver"
+                '''chrome_driver_path = "/usr/local/share/chrome_driver/chromedriver"
                 serv = ChromeService(executable_path=chrome_driver_path)
+                driver = webdriver.Chrome(service=serv, options=options)'''
+                chrome_driver_path = "/usr/local/share/chrome_driver/chromedriver"
+                serv = ChromeService(chrome_driver_path)
                 driver = webdriver.Chrome(service=serv, options=options)
         else:
             if browser == "Edge":
