@@ -100,11 +100,13 @@ jobs:
 
         # Step 1: Push report to the `main` branch to save execution history
       - name: Commit and push report to main
+        if: always()
+        continue-on-error: true
         run: |
          git config --local user.name "github-actions[bot]"
          git config --local user.email "github-actions[bot]@users.noreply.github.com"
          git checkout main
-         git add reports/
+         git add allure-report/
          git commit -m "Add test report from workflow run"
          git push origin main
         env:
@@ -112,11 +114,13 @@ jobs:
 
         # Step 2: Push the same report to the `gh-pages` branch to publish
       - name: Commit and push report to gh-pages
+        if: always()
+        continue-on-error: true
         run: |
            git config --local user.name "github-actions[bot]"
            git config --local user.email "github-actions[bot]@users.noreply.github.com"
            git checkout -b gh-pages || git checkout gh-pages
-           git add reports/
+           git add allure-report/
            git commit -m "Update test report for GitHub Pages"
            git push origin gh-pages
         env:
