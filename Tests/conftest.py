@@ -23,6 +23,7 @@ def setup_reporting_directories(request):
     # Copy contents of allure-history into Reports/history
     if os.path.exists(allure_history_path):
         shutil.copytree(allure_history_path, reports_history_path)
+        print("History folder copied")
 
 
 def pytest_terminal_summary():
