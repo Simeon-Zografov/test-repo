@@ -52,8 +52,6 @@ class BaseClass:
                 serv = EdgeService(EdgeChromiumDriverManager().install())
                 driver = webdriver.Edge(service=serv, options=options)
             else:
-                chrome_service = ChromeService(executable_path='/usr/local/share/chrome_driver')
-
                 options = ChromeOptions()
                 options.add_argument("--headless")
                 options.add_argument("--disable-gpu")
@@ -62,8 +60,9 @@ class BaseClass:
                 options.add_argument("--disable-dev-shm-usage")
                 options.add_argument("--disable-extensions")
                 options.add_argument("--disable-infobars")
-                serv = ChromeService(ChromeDriverManager().install())
-                driver = webdriver.Chrome(service=chrome_service, options=options)
+                chrome_driver_path = ChromeDriverManager().install()
+                serv = ChromeService(executable_path='/usr/local/share/chrome_driver/chromedriver')
+                driver = webdriver.Chrome(service=serv, options=options)
         else:
             if browser == "Edge":
                 edge_driver_path = os.path.join(project_folder, 'Resources', 'msedgedriver')
