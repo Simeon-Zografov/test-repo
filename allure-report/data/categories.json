@@ -7,19 +7,167 @@
       "name" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
       "children" : [ {
         "name" : "Check the landing page accessibility",
-        "uid" : "a63c051e2efe6ce4",
+        "uid" : "a42725b5a50b8671",
         "parentUid" : "8c7ef59833ce624d91e5925e599411b3",
         "status" : "failed",
         "time" : {
-          "start" : 1728036497683,
-          "stop" : 1728036501244,
-          "duration" : 3561
+          "start" : 1728037913838,
+          "stop" : 1728037917702,
+          "duration" : 3864
         },
         "flaky" : false,
         "parameters" : [ "'Chrome'" ]
       } ],
       "uid" : "8c7ef59833ce624d91e5925e599411b3"
+    }, {
+      "name" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "children" : [ {
+        "name" : "Check the home page accessibility",
+        "uid" : "4f01046dd47490aa",
+        "parentUid" : "35904ac2e4c3ae46f569e43c4ca9468c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1728037917719,
+          "stop" : 1728037927734,
+          "duration" : 10015
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "35904ac2e4c3ae46f569e43c4ca9468c"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n0   chromedriver                        0x00000001008b4d18 chromedriver + 4996376\n1   chromedriver                        0x00000001008ac5da chromedriver + 4961754\n2   chromedriver                        0x000000010044fd10 chromedriver + 388368\n3   chromedriver                        0x000000010049c30f chromedriver + 701199\n4   chromedriver                        0x000000010049c3f1 chromedriver + 701425\n5   chromedriver                        0x00000001004e1464 chromedriver + 984164\n6   chromedriver                        0x00000001004c09dd chromedriver + 850397\n7   chromedriver                        0x00000001004dea00 chromedriver + 973312\n8   chromedriver                        0x00000001004c0753 chromedriver + 849747\n9   chromedriver                        0x000000010048f635 chromedriver + 648757\n10  chromedriver                        0x000000010048fe5e chromedriver + 650846\n11  chromedriver                        0x000000010087b000 chromedriver + 4759552\n12  chromedriver                        0x000000010087ff18 chromedriver + 4779800\n13  chromedriver                        0x00000001008805e5 chromedriver + 4781541\n14  chromedriver                        0x000000010085daa9 chromedriver + 4639401\n15  chromedriver                        0x00000001008808d9 chromedriver + 4782297\n16  chromedriver                        0x000000010084f044 chromedriver + 4579396\n17  chromedriver                        0x000000010089ca08 chromedriver + 4897288\n18  chromedriver                        0x000000010089cc03 chromedriver + 4897795\n19  chromedriver                        0x00000001008ac1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "children" : [ {
+        "name" : "Twitter link",
+        "uid" : "e8abafcdaa976eca",
+        "parentUid" : "1414bd13db72d3f79eabdbb5608401fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728037989243,
+          "stop" : 1728038032451,
+          "duration" : 43208
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "1414bd13db72d3f79eabdbb5608401fe"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='social_twitter']/a\"}\n  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n0   chromedriver                        0x00000001008b4d18 chromedriver + 4996376\n1   chromedriver                        0x00000001008ac5da chromedriver + 4961754\n2   chromedriver                        0x000000010044fd10 chromedriver + 388368\n3   chromedriver                        0x000000010049c30f chromedriver + 701199\n4   chromedriver                        0x000000010049c3f1 chromedriver + 701425\n5   chromedriver                        0x00000001004e1464 chromedriver + 984164\n6   chromedriver                        0x00000001004c09dd chromedriver + 850397\n7   chromedriver                        0x00000001004dea00 chromedriver + 973312\n8   chromedriver                        0x00000001004c0753 chromedriver + 849747\n9   chromedriver                        0x000000010048f635 chromedriver + 648757\n10  chromedriver                        0x000000010048fe5e chromedriver + 650846\n11  chromedriver                        0x000000010087b000 chromedriver + 4759552\n12  chromedriver                        0x000000010087ff18 chromedriver + 4779800\n13  chromedriver                        0x00000001008805e5 chromedriver + 4781541\n14  chromedriver                        0x000000010085daa9 chromedriver + 4639401\n15  chromedriver                        0x00000001008808d9 chromedriver + 4782297\n16  chromedriver                        0x000000010084f044 chromedriver + 4579396\n17  chromedriver                        0x000000010089ca08 chromedriver + 4897288\n18  chromedriver                        0x000000010089cc03 chromedriver + 4897795\n19  chromedriver                        0x00000001008ac1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "children" : [ {
+        "name" : "Manually open new tab",
+        "uid" : "5793da4bca758ca5",
+        "parentUid" : "14ac2a544017ffbece2d222ac080cd1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038032459,
+          "stop" : 1728038045797,
+          "duration" : 13338
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "14ac2a544017ffbece2d222ac080cd1a"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n0   chromedriver                        0x0000000102f07d18 chromedriver + 4996376\n1   chromedriver                        0x0000000102eff5da chromedriver + 4961754\n2   chromedriver                        0x0000000102aa2d10 chromedriver + 388368\n3   chromedriver                        0x0000000102aef30f chromedriver + 701199\n4   chromedriver                        0x0000000102aef3f1 chromedriver + 701425\n5   chromedriver                        0x0000000102b34464 chromedriver + 984164\n6   chromedriver                        0x0000000102b139dd chromedriver + 850397\n7   chromedriver                        0x0000000102b31a00 chromedriver + 973312\n8   chromedriver                        0x0000000102b13753 chromedriver + 849747\n9   chromedriver                        0x0000000102ae2635 chromedriver + 648757\n10  chromedriver                        0x0000000102ae2e5e chromedriver + 650846\n11  chromedriver                        0x0000000102ece000 chromedriver + 4759552\n12  chromedriver                        0x0000000102ed2f18 chromedriver + 4779800\n13  chromedriver                        0x0000000102ed35e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102eb0aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102ed38d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102ea2044 chromedriver + 4579396\n17  chromedriver                        0x0000000102eefa08 chromedriver + 4897288\n18  chromedriver                        0x0000000102eefc03 chromedriver + 4897795\n19  chromedriver                        0x0000000102eff1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "children" : [ {
+        "name" : "Twitter link",
+        "uid" : "4f435e0262108f8",
+        "parentUid" : "43a790a7d1c5e31f45c187810a084a32",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038060088,
+          "stop" : 1728038106690,
+          "duration" : 46602
+        },
+        "flaky" : false,
+        "parameters" : [ "' Edge'" ]
+      } ],
+      "uid" : "43a790a7d1c5e31f45c187810a084a32"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='social_twitter']/a\"}\n  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n0   chromedriver                        0x0000000102f07d18 chromedriver + 4996376\n1   chromedriver                        0x0000000102eff5da chromedriver + 4961754\n2   chromedriver                        0x0000000102aa2d10 chromedriver + 388368\n3   chromedriver                        0x0000000102aef30f chromedriver + 701199\n4   chromedriver                        0x0000000102aef3f1 chromedriver + 701425\n5   chromedriver                        0x0000000102b34464 chromedriver + 984164\n6   chromedriver                        0x0000000102b139dd chromedriver + 850397\n7   chromedriver                        0x0000000102b31a00 chromedriver + 973312\n8   chromedriver                        0x0000000102b13753 chromedriver + 849747\n9   chromedriver                        0x0000000102ae2635 chromedriver + 648757\n10  chromedriver                        0x0000000102ae2e5e chromedriver + 650846\n11  chromedriver                        0x0000000102ece000 chromedriver + 4759552\n12  chromedriver                        0x0000000102ed2f18 chromedriver + 4779800\n13  chromedriver                        0x0000000102ed35e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102eb0aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102ed38d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102ea2044 chromedriver + 4579396\n17  chromedriver                        0x0000000102eefa08 chromedriver + 4897288\n18  chromedriver                        0x0000000102eefc03 chromedriver + 4897795\n19  chromedriver                        0x0000000102eff1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "children" : [ {
+        "name" : "Manually open new tab",
+        "uid" : "e7a551c99e00afac",
+        "parentUid" : "1f600521949426639d2affa3a4df4181",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038106698,
+          "stop" : 1728038119640,
+          "duration" : 12942
+        },
+        "flaky" : false,
+        "parameters" : [ "' Edge'" ]
+      } ],
+      "uid" : "1f600521949426639d2affa3a4df4181"
+    }, {
+      "name" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "children" : [ {
+        "name" : "Visual check of the Landing page",
+        "uid" : "d4408ef56131e4be",
+        "parentUid" : "54a1e1ff6d0c123e60ba75afe96b9fb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038134071,
+          "stop" : 1728038137396,
+          "duration" : 3325
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page",
+        "uid" : "501cd20aac56a915",
+        "parentUid" : "54a1e1ff6d0c123e60ba75afe96b9fb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038137500,
+          "stop" : 1728038141780,
+          "duration" : 4280
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the Home page after burger button click",
+        "uid" : "b2e40abd66f35340",
+        "parentUid" : "54a1e1ff6d0c123e60ba75afe96b9fb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038141880,
+          "stop" : 1728038144421,
+          "duration" : 2541
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page",
+        "uid" : "a934263f2d9065fa",
+        "parentUid" : "54a1e1ff6d0c123e60ba75afe96b9fb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038144834,
+          "stop" : 1728038146490,
+          "duration" : 1656
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "Visual check of the broken Home page after burger button click",
+        "uid" : "1fb1abd5ff8f91da",
+        "parentUid" : "54a1e1ff6d0c123e60ba75afe96b9fb1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1728038146574,
+          "stop" : 1728038148748,
+          "duration" : 2174
+        },
+        "flaky" : false,
+        "parameters" : [ "'Chrome'" ]
+      } ],
+      "uid" : "54a1e1ff6d0c123e60ba75afe96b9fb1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

@@ -2,13 +2,22 @@
   "7e2162c355f3bd4c8610625a9983e516" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "501cd20aac56a915",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "time" : {
+        "start" : 1728038137500,
+        "stop" : 1728038141780,
+        "duration" : 4280
+      }
+    }, {
       "uid" : "fa200b73a8e0c6ee",
       "status" : "failed",
       "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:28 in test_2() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
@@ -44,11 +53,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "73c3d7f7817a8fb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728038045821,
+        "stop" : 1728038054937,
+        "duration" : 9116
+      }
+    }, {
       "uid" : "22bbaf97fecb1a60",
       "status" : "passed",
       "time" : {
@@ -63,11 +80,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2fe64e03a08dd85e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037967520,
+        "stop" : 1728037968433,
+        "duration" : 913
+      }
+    }, {
       "uid" : "d0f54d30ef9bd0ec",
       "status" : "passed",
       "time" : {
@@ -80,13 +105,22 @@
   "f3d4fdd619ae32f73e46d5a7dc8251a4" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e8abafcdaa976eca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n0   chromedriver                        0x00000001008b4d18 chromedriver + 4996376\n1   chromedriver                        0x00000001008ac5da chromedriver + 4961754\n2   chromedriver                        0x000000010044fd10 chromedriver + 388368\n3   chromedriver                        0x000000010049c30f chromedriver + 701199\n4   chromedriver                        0x000000010049c3f1 chromedriver + 701425\n5   chromedriver                        0x00000001004e1464 chromedriver + 984164\n6   chromedriver                        0x00000001004c09dd chromedriver + 850397\n7   chromedriver                        0x00000001004dea00 chromedriver + 973312\n8   chromedriver                        0x00000001004c0753 chromedriver + 849747\n9   chromedriver                        0x000000010048f635 chromedriver + 648757\n10  chromedriver                        0x000000010048fe5e chromedriver + 650846\n11  chromedriver                        0x000000010087b000 chromedriver + 4759552\n12  chromedriver                        0x000000010087ff18 chromedriver + 4779800\n13  chromedriver                        0x00000001008805e5 chromedriver + 4781541\n14  chromedriver                        0x000000010085daa9 chromedriver + 4639401\n15  chromedriver                        0x00000001008808d9 chromedriver + 4782297\n16  chromedriver                        0x000000010084f044 chromedriver + 4579396\n17  chromedriver                        0x000000010089ca08 chromedriver + 4897288\n18  chromedriver                        0x000000010089cc03 chromedriver + 4897795\n19  chromedriver                        0x00000001008ac1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "time" : {
+        "start" : 1728037989243,
+        "stop" : 1728038032451,
+        "duration" : 43208
+      }
+    }, {
       "uid" : "bbc5cccd0785cb5c",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n0   chromedriver                        0x0000000102d7fd18 chromedriver + 4996376\n1   chromedriver                        0x0000000102d775da chromedriver + 4961754\n2   chromedriver                        0x000000010291ad10 chromedriver + 388368\n3   chromedriver                        0x000000010296730f chromedriver + 701199\n4   chromedriver                        0x00000001029673f1 chromedriver + 701425\n5   chromedriver                        0x00000001029ac464 chromedriver + 984164\n6   chromedriver                        0x000000010298b9dd chromedriver + 850397\n7   chromedriver                        0x00000001029a9a00 chromedriver + 973312\n8   chromedriver                        0x000000010298b753 chromedriver + 849747\n9   chromedriver                        0x000000010295a635 chromedriver + 648757\n10  chromedriver                        0x000000010295ae5e chromedriver + 650846\n11  chromedriver                        0x0000000102d46000 chromedriver + 4759552\n12  chromedriver                        0x0000000102d4af18 chromedriver + 4779800\n13  chromedriver                        0x0000000102d4b5e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102d28aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102d4b8d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102d1a044 chromedriver + 4579396\n17  chromedriver                        0x0000000102d67a08 chromedriver + 4897288\n18  chromedriver                        0x0000000102d67c03 chromedriver + 4897795\n19  chromedriver                        0x0000000102d771de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
@@ -120,13 +154,22 @@
   "b82bcf19964e7e7b71a9c750614ceceb" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "1fb1abd5ff8f91da",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "time" : {
+        "start" : 1728038146574,
+        "stop" : 1728038148748,
+        "duration" : 2174
+      }
+    }, {
       "uid" : "6ed6b0abdb08002c",
       "status" : "failed",
       "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:58 in test_5() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
@@ -137,16 +180,44 @@
       }
     } ]
   },
+  "57cfe5bf2a246f02baafe3156956483c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24ffd827b49284d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037980824,
+        "stop" : 1728037981501,
+        "duration" : 677
+      }
+    } ]
+  },
   "91731744d83500bd76ad260359f203b8" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "4f01046dd47490aa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1728037917719,
+        "stop" : 1728037927734,
+        "duration" : 10015
+      }
+    }, {
       "uid" : "c364a1b70dc2ac59",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 6 == 0\n +  where 6 = len([{'description': 'Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to th... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
@@ -171,11 +242,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "ba0fab21c4abc35c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037940906,
+        "stop" : 1728037942688,
+        "duration" : 1782
+      }
+    }, {
       "uid" : "809e8d5556635c56",
       "status" : "passed",
       "time" : {
@@ -204,6 +283,44 @@
       }
     } ]
   },
+  "4eb1247993442d63ad2a286f84c75d51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f386379ef05a587",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037982201,
+        "stop" : 1728037982537,
+        "duration" : 336
+      }
+    } ]
+  },
+  "76ff2da674c66b2131a27b0d11a58fd9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e997618ab8a5dcc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037981502,
+        "stop" : 1728037982198,
+        "duration" : 696
+      }
+    } ]
+  },
   "835dedd962576e463d3e402931bc7f9f" : {
     "statistic" : {
       "failed" : 0,
@@ -225,14 +342,23 @@
   },
   "d3e1758d03982814c02f1852d8cdaadd" : {
     "statistic" : {
-      "failed" : 3,
+      "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
     },
     "items" : [ {
+      "uid" : "a42725b5a50b8671",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
+      "time" : {
+        "start" : 1728037913838,
+        "stop" : 1728037917702,
+        "duration" : 3864
+      }
+    }, {
       "uid" : "a63c051e2efe6ce4",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 4 == 0\n +  where 4 = len([{'description': 'Ensures every form element has a label', 'help': 'Form elements must have labels', 'helpUrl': 'https... by landmarks', 'helpUrl': 'https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI', 'id': 'region', ...}])",
@@ -264,13 +390,22 @@
   "797e24ae071c7cec39d2cf534183666e" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a934263f2d9065fa",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "time" : {
+        "start" : 1728038144834,
+        "stop" : 1728038146490,
+        "duration" : 1656
+      }
+    }, {
       "uid" : "fa549ba6dc13c07d",
       "status" : "failed",
       "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:48 in test_4() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
@@ -284,13 +419,22 @@
   "f351905492f20e257d3c84933f640453" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "b2e40abd66f35340",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "time" : {
+        "start" : 1728038141880,
+        "stop" : 1728038144421,
+        "duration" : 2541
+      }
+    }, {
       "uid" : "d52a808b703e8cd1",
       "status" : "failed",
       "statusDetails" : "AssertionError: \u001B[31mFAILURE: \u001B[0m\n\u001B[31mtest_VisualTests.py\u001B[0m:38 in test_3() -> \n\u001B[31mVisualChack.py\u001B[0m:27 in visual_comparison() -> with check, allure.step(f\"Visual check for {path} in {i} iteration\"):\n\u001B[31mVisualChack.py\u001B[0m:38 in visual_comparison -> assert mismatch == 0\n\u001B[31mAssertionError\n\u001B[0m\n\n\u001B[31mFAILURE: \u001B[0m\n------------------------------------------------------------\nFailed Checks: 2",
@@ -325,11 +469,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "4def18c9c0e343dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037966757,
+        "stop" : 1728037967514,
+        "duration" : 757
+      }
+    }, {
       "uid" : "c183ff5d56781eaf",
       "status" : "passed",
       "time" : {
@@ -358,6 +510,25 @@
       }
     } ]
   },
+  "790baec68960a2fa9dcec193f44bfae7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9aa8f8f7d387404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037982538,
+        "stop" : 1728037984174,
+        "duration" : 1636
+      }
+    } ]
+  },
   "c5a9642853eecee0f0c32d409da2a973" : {
     "statistic" : {
       "failed" : 0,
@@ -383,11 +554,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "326aa0c54409ef73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037947752,
+        "stop" : 1728037949953,
+        "duration" : 2201
+      }
+    }, {
       "uid" : "8d6a1d27cc39c64a",
       "status" : "passed",
       "time" : {
@@ -402,11 +581,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "6248691dcf1650ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037968854,
+        "stop" : 1728037970801,
+        "duration" : 1947
+      }
+    }, {
       "uid" : "ba80f4c55fab0c64",
       "status" : "passed",
       "time" : {
@@ -440,11 +627,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "21dc89a7d35a07fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037961849,
+        "stop" : 1728037966754,
+        "duration" : 4905
+      }
+    }, {
       "uid" : "8d9c543ff6029ca6",
       "status" : "passed",
       "time" : {
@@ -454,7 +649,26 @@
       }
     } ]
   },
-  "f050d45845ad5be5eb6daa72e6bc38ca" : {
+  "b757172c50de3c564fbf1a4b33c5b763" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2c1dd3b8be02b80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037954919,
+        "stop" : 1728037956926,
+        "duration" : 2007
+      }
+    } ]
+  },
+  "81a1b07fd3be4524b15b84cdd6c320fd" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -464,6 +678,35 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "4f435e0262108f8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message: \nStacktrace:\n0   chromedriver                        0x0000000102f07d18 chromedriver + 4996376\n1   chromedriver                        0x0000000102eff5da chromedriver + 4961754\n2   chromedriver                        0x0000000102aa2d10 chromedriver + 388368\n3   chromedriver                        0x0000000102aef30f chromedriver + 701199\n4   chromedriver                        0x0000000102aef3f1 chromedriver + 701425\n5   chromedriver                        0x0000000102b34464 chromedriver + 984164\n6   chromedriver                        0x0000000102b139dd chromedriver + 850397\n7   chromedriver                        0x0000000102b31a00 chromedriver + 973312\n8   chromedriver                        0x0000000102b13753 chromedriver + 849747\n9   chromedriver                        0x0000000102ae2635 chromedriver + 648757\n10  chromedriver                        0x0000000102ae2e5e chromedriver + 650846\n11  chromedriver                        0x0000000102ece000 chromedriver + 4759552\n12  chromedriver                        0x0000000102ed2f18 chromedriver + 4779800\n13  chromedriver                        0x0000000102ed35e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102eb0aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102ed38d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102ea2044 chromedriver + 4579396\n17  chromedriver                        0x0000000102eefa08 chromedriver + 4897288\n18  chromedriver                        0x0000000102eefc03 chromedriver + 4897795\n19  chromedriver                        0x0000000102eff1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "time" : {
+        "start" : 1728038060088,
+        "stop" : 1728038106690,
+        "duration" : 46602
+      }
+    } ]
+  },
+  "f050d45845ad5be5eb6daa72e6bc38ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5793da4bca758ca5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='social_twitter']/a\"}\n  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n0   chromedriver                        0x00000001008b4d18 chromedriver + 4996376\n1   chromedriver                        0x00000001008ac5da chromedriver + 4961754\n2   chromedriver                        0x000000010044fd10 chromedriver + 388368\n3   chromedriver                        0x000000010049c30f chromedriver + 701199\n4   chromedriver                        0x000000010049c3f1 chromedriver + 701425\n5   chromedriver                        0x00000001004e1464 chromedriver + 984164\n6   chromedriver                        0x00000001004c09dd chromedriver + 850397\n7   chromedriver                        0x00000001004dea00 chromedriver + 973312\n8   chromedriver                        0x00000001004c0753 chromedriver + 849747\n9   chromedriver                        0x000000010048f635 chromedriver + 648757\n10  chromedriver                        0x000000010048fe5e chromedriver + 650846\n11  chromedriver                        0x000000010087b000 chromedriver + 4759552\n12  chromedriver                        0x000000010087ff18 chromedriver + 4779800\n13  chromedriver                        0x00000001008805e5 chromedriver + 4781541\n14  chromedriver                        0x000000010085daa9 chromedriver + 4639401\n15  chromedriver                        0x00000001008808d9 chromedriver + 4782297\n16  chromedriver                        0x000000010084f044 chromedriver + 4579396\n17  chromedriver                        0x000000010089ca08 chromedriver + 4897288\n18  chromedriver                        0x000000010089cc03 chromedriver + 4897795\n19  chromedriver                        0x00000001008ac1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "time" : {
+        "start" : 1728038032459,
+        "stop" : 1728038045797,
+        "duration" : 13338
+      }
+    }, {
       "uid" : "635005972e59c9b2",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='social_twitter']/a\"}\n  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n0   chromedriver                        0x0000000102d7fd18 chromedriver + 4996376\n1   chromedriver                        0x0000000102d775da chromedriver + 4961754\n2   chromedriver                        0x000000010291ad10 chromedriver + 388368\n3   chromedriver                        0x000000010296730f chromedriver + 701199\n4   chromedriver                        0x00000001029673f1 chromedriver + 701425\n5   chromedriver                        0x00000001029ac464 chromedriver + 984164\n6   chromedriver                        0x000000010298b9dd chromedriver + 850397\n7   chromedriver                        0x00000001029a9a00 chromedriver + 973312\n8   chromedriver                        0x000000010298b753 chromedriver + 849747\n9   chromedriver                        0x000000010295a635 chromedriver + 648757\n10  chromedriver                        0x000000010295ae5e chromedriver + 650846\n11  chromedriver                        0x0000000102d46000 chromedriver + 4759552\n12  chromedriver                        0x0000000102d4af18 chromedriver + 4779800\n13  chromedriver                        0x0000000102d4b5e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102d28aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102d4b8d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102d1a044 chromedriver + 4579396\n17  chromedriver                        0x0000000102d67a08 chromedriver + 4897288\n18  chromedriver                        0x0000000102d67c03 chromedriver + 4897795\n19  chromedriver                        0x0000000102d771de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
@@ -474,7 +717,7 @@
       }
     } ]
   },
-  "e8c8b808a1aba4bd5fb744985ee6e2df" : {
+  "8037429584e532d43df2c012ae658d97" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -484,6 +727,54 @@
       "total" : 1
     },
     "items" : [ {
+      "uid" : "1ce94ff4829d8563",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037975847,
+        "stop" : 1728037980821,
+        "duration" : 4974
+      }
+    } ]
+  },
+  "e5b83e0137b0b3d0f1a7c6cb8998f22b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7a551c99e00afac",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//li[@class='social_twitter']/a\"}\n  (Session info: chrome=129.0.6668.90); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n0   chromedriver                        0x0000000102f07d18 chromedriver + 4996376\n1   chromedriver                        0x0000000102eff5da chromedriver + 4961754\n2   chromedriver                        0x0000000102aa2d10 chromedriver + 388368\n3   chromedriver                        0x0000000102aef30f chromedriver + 701199\n4   chromedriver                        0x0000000102aef3f1 chromedriver + 701425\n5   chromedriver                        0x0000000102b34464 chromedriver + 984164\n6   chromedriver                        0x0000000102b139dd chromedriver + 850397\n7   chromedriver                        0x0000000102b31a00 chromedriver + 973312\n8   chromedriver                        0x0000000102b13753 chromedriver + 849747\n9   chromedriver                        0x0000000102ae2635 chromedriver + 648757\n10  chromedriver                        0x0000000102ae2e5e chromedriver + 650846\n11  chromedriver                        0x0000000102ece000 chromedriver + 4759552\n12  chromedriver                        0x0000000102ed2f18 chromedriver + 4779800\n13  chromedriver                        0x0000000102ed35e5 chromedriver + 4781541\n14  chromedriver                        0x0000000102eb0aa9 chromedriver + 4639401\n15  chromedriver                        0x0000000102ed38d9 chromedriver + 4782297\n16  chromedriver                        0x0000000102ea2044 chromedriver + 4579396\n17  chromedriver                        0x0000000102eefa08 chromedriver + 4897288\n18  chromedriver                        0x0000000102eefc03 chromedriver + 4897795\n19  chromedriver                        0x0000000102eff1de chromedriver + 4960734\n20  libsystem_pthread.dylib             0x00007ff810f1418b _pthread_start + 99\n21  libsystem_pthread.dylib             0x00007ff810f0fae3 thread_start + 15",
+      "time" : {
+        "start" : 1728038106698,
+        "stop" : 1728038119640,
+        "duration" : 12942
+      }
+    } ]
+  },
+  "e8c8b808a1aba4bd5fb744985ee6e2df" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d4408ef56131e4be",
+      "status" : "broken",
+      "statusDetails" : "ValueError: ('Image sizes do not match.', 13537280, 3384320)",
+      "time" : {
+        "start" : 1728038134071,
+        "stop" : 1728038137396,
+        "duration" : 3325
+      }
+    }, {
       "uid" : "cdf15f2d95b0c307",
       "status" : "passed",
       "time" : {
@@ -498,11 +789,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "9dee0ae147aea1e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037968435,
+        "stop" : 1728037968852,
+        "duration" : 417
+      }
+    }, {
       "uid" : "551b8352b021893a",
       "status" : "passed",
       "time" : {
@@ -536,17 +835,44 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "10b6a55152e559fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728037932920,
+        "stop" : 1728037935865,
+        "duration" : 2945
+      }
+    }, {
       "uid" : "e4a864b003bae41f",
       "status" : "passed",
       "time" : {
         "start" : 1728024528680,
         "stop" : 1728024531616,
         "duration" : 2936
+      }
+    } ]
+  },
+  "42bdd6c9b38bf543f0a93d9356304320" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90ff2c0c5fd8c02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1728038119655,
+        "stop" : 1728038128865,
+        "duration" : 9210
       }
     } ]
   }

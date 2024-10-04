@@ -65,12 +65,6 @@ jobs:
           pip install -r requirements.txt
         working-directory: .
 
-      - name: Debug Environment Variables
-        run: |
-          echo "BROWSERS: $BROWSERS"
-          echo "All environment variables:"
-          printenv
-
       - name: Run Selenium tests
         continue-on-error: true
         env:
@@ -81,7 +75,6 @@ jobs:
           EMAIL: ${{ vars.EMAIL }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: |
-          echo "Browsers to run: $BROWSERS"
           if [ "${{ github.event_name }}" == 'workflow_dispatch' ] && [ "${{ github.event.inputs.test_options }}" != 'All' ]; then
             if [ "${{ github.event.inputs.test_options }}" == 'Accessibility' ]; then
               pytest Tests/test_Accessibility.py
@@ -105,21 +98,45 @@ jobs:
           fi
         working-directory: .
 
-      - name: Load test report history
-        uses: actions/checkout@v4
-        if: always()
-        continue-on-error: true
-        with:
-          ref: gh-pages
-          path: gh-pages
+        # Step 1: Push report to the `main` branch to save execution history
+      - name: Commit and push report to main
+        run: |
+         git config --local user.name "github-actions[bot]"
+         git config --local user.email "github-actions[bot]@users.noreply.github.com"
+         git checkout main
+         git add reports/
+         git commit -m "Add test report from workflow run"
+         git push origin main
+        env:
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build test report
-        uses: simple-elf/allure-report-action@v1.9
-        if: always()
-        with:
-          gh_pages: gh-pages
-          allure_history: allure-history
-          allure_results: allure-results
+        # Step 2: Push the same report to the `gh-pages` branch to publish
+      - name: Commit and push report to gh-pages
+        run: |
+           git config --local user.name "github-actions[bot]"
+           git config --local user.email "github-actions[bot]@users.noreply.github.com"
+           git checkout -b gh-pages || git checkout gh-pages
+           git add reports/
+           git commit -m "Update test report for GitHub Pages"
+           git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#      - name: Load test report history
+#        uses: actions/checkout@v4
+#        if: always()
+#        continue-on-error: true
+#        with:
+#          ref: gh-pages
+#          path: gh-pages
+#
+#      - name: Build test report
+#        uses: simple-elf/allure-report-action@v1.9
+#        if: always()
+#        with:
+#          gh_pages: gh-pages
+#          allure_history: allure-history
+#          allure_results: allure-results
 
       - name: Publish test report
         uses: peaceiris/actions-gh-pages@v4
@@ -127,4 +144,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
-          publish_dir: allure-history
+          publish_dir: allure-report
