@@ -1,1 +1,0 @@
-You currently are testing DEV env
